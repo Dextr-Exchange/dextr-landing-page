@@ -21,7 +21,7 @@ export default function footer() {
       </div>
       <div className='flex xl:px-20 xl:py-20 px-3 py-12 flex-col xl:flex-row'>
         <div className='flex flex-col justify-center xl:justify-start'>
-          <div className='flex justify-center'><Image src={Logo} alt="Dextr Logo" width={150} height={100} /></div>
+          <div className='flex justify-center xl:justify-start'><Image src={Logo} alt="Dextr Logo" width={150} height={100} /></div>
           <p className='xl:w-1/3 text-[#ffffffcb] font-secondary text-center xl:text-left font-normal' >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam deleniti doloribus labore recusandae quibusdam, obcaecati nihil ea unde eligendi quod. Optio facilis rerum vero aperiam placeat itaque vel beatae ipsa?</p>
         </div>
         <div className='flex flex-col font-bold font-primary pt-8 xl:pt-0 gap-3 text-center xl:text-right'>
