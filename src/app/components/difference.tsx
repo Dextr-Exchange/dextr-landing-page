@@ -17,12 +17,12 @@ import 'swiper/css/scrollbar';
 
 const FeatureCard = (props:any) =>{
   return(
-    <div className='flex transition-colors justify-center border border-[#01C3F1] rounded-[50px] p-8 pb-24 hover:bg-gradient-to-br from-[#d52bffac] duration-300 ease-in to-[#01c1f1b1] relative overflow-hidden min-h-full'>
+    <div className='flex flex-col transition-colors justify-center border border-[#01C3F1] rounded-[50px] p-8 xl:pb-24 hover:bg-gradient-to-br from-[#d52bffac] duration-300 ease-in to-[#01c1f1b1] relative overflow-hidden min-h-full gap-5'>
       <div>
-        <h3 className='font-bold font-primary text-4xl'>{props.title}</h3>
-        <p className='font-normal mt-5  text-xl  font-secondary w-2/5'>{props.description}</p>
+        <h3 className='font-bold font-primary xl:text-left text-center text-xl xl:text-4xl'>{props.title}</h3>
+        <p className='font-normal mt-5  text-xs xl:text-xl xl:text-left text-center font-secondary xl:w-2/5'>{props.description}</p>
       </div>
-      <div className='absolute right-0 -top-12'>
+      <div className='xl:absolute right-0 top-12 '>
         <Image src={props.image} alt={props.title} objectFit="contain" />
       </div>
     </div>
@@ -60,16 +60,16 @@ export default function difference() {
   ]
 
   return (
-    <div id="features" className='py-28 mx-20'>
+    <div id="features" className='py-12 xl:py-28 mx-3 xl:mx-20'>
       <div className='text-center flex justify-center flex-col gap-3'>
-        <h1 className='text-6xl font-primary font-bold ' >Experience the Dextr Difference</h1>
-        <p className=' text-center mx-64 text-xl text-[#ffffffa5]'>Step into the Extraordinary: Unleash Unrivaled Benefits with Dextr. Immerse yourself in a captivating trading experience where robust security, cutting-edge tools, and great user experience converge, offering a pathway to the world's most user-centric exchange.
+        <h1 className='text-3xl xl:text-6xl font-primary font-bold ' >Experience the Dextr Difference</h1>
+        <p className=' text-center xl:mx-64 text-sm xl:text-xl text-[#ffffffa5]'>Step into the Extraordinary: Unleash Unrivaled Benefits with Dextr. Immerse yourself in a captivating trading experience where robust security, cutting-edge tools, and great user experience converge, offering a pathway to the world's most user-centric exchange.
         </p>
       </div>
-      <div className='pt-12'>
+      <div className='pt-6 xl:pt-12'>
       <Swiper
       spaceBetween={50}
-      slidesPerView={1.2}
+      slidesPerView={1.5}
       
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}

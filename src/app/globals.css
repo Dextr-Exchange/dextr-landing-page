@@ -55,6 +55,7 @@
 }
   
 .imgSection {
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +86,7 @@
 
 
   .blue-glassmorphism {
-    background: rgba(39, 51, 89, 0.757);
+    background: rgba(5, 68, 134, 0.757);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(5px);

@@ -65,7 +65,7 @@ export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className=" ">
+    <nav className="flex justify-between w-full">
       {/* <div className="flex justify-center items-center">
         <Image src={Logo} alt="logo" className="w-32 xl:w-64 cursor-pointer" objectFit='contain' />
         <Image src={Logo} alt="Dextr Logo" width={150} height={100} />
@@ -80,7 +80,7 @@ export default function Navbar() {
           Launch App
         </button>
       </div> */}
-      <div className='font-primary flex justify-between pt-1 px-1  xl:pt-5 xl:px-12'>
+      <div className='font-primary flex justify-between pt-2 px-1 w-full xl:pt-5 xl:px-12'>
       <div className='flex gap-32 '>
         <Image src={Logo} alt="Dextr Logo" width={150} height={100} />
       <div className='text-[#01C3F1] font-bold hidden xl:flex gap-12 justify-center items-center text-xs'>    
@@ -108,19 +108,19 @@ export default function Navbar() {
 
       <div className="flex relative">
       {!toggleMenu && (
-          <HiMenuAlt4 fontSize={28} className="text-white xl:hidden cursor-pointer" onClick={() => setToggleMenu(true)} />
+          <HiMenuAlt4 fontSize={28} className="text-white xl:hidden cursor-pointer h-full pt-3" onClick={() => setToggleMenu(true)} />
         )}
         {toggleMenu && (
-          <AiOutlineClose fontSize={28} className="text-white xl:hidden cursor-pointer" onClick={() => setToggleMenu(false)} />
+          <AiOutlineClose fontSize={28} className="text-white hidden cursor-pointer" onClick={() => setToggleMenu(false)} />
         )}
         {toggleMenu && (
-          <ul className='z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-full shadow-2xl md:hidden list-none
+          <ul className='z-10 fixed -top-0 -right-4 p-3 w-[60vw] h-full shadow-2xl md:hidden gap-5 list-none
           flex flex-col justify-start items-end rounded-md blue-glassmorphism text-white animate-slide-in'>
-            <li className="text-xl w-full my-2">
+            <li className="text-xl w-full my-2 font-primary ">
               <AiOutlineClose onClick={()=> setToggleMenu(false)}/></li>
-              <Link href="#features" className={`hover:underline underline-offset-8 duration-150`} >FEATURES</Link>
-        <Link href="#features" className={`hover:underline underline-offset-8 duration-150`} >WHITEPAPER</Link>
-         <Link href="#features" className={`hover:underline underline-offset-8 duration-150`} >CONTACT</Link>
+              <Link href="#features" className={`hover:underline underline-offset-8 duration-150 mr-7`} >FEATURES</Link>
+        <Link href="#features" className={`hover:underline underline-offset-8 duration-150 mr-7`} >WHITEPAPER</Link>
+         <Link href="#features" className={`hover:underline underline-offset-8 duration-150 mr-7`} >CONTACT</Link>
 
           </ul>
         )}
