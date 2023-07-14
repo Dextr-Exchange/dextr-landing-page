@@ -6,7 +6,7 @@ export default function laptop() {
       <div className='xl:basis-2/3 h-full iframe-cover'>      
       <spline-viewer hint className="iframe-cover" loading-anim url="https://prod.spline.design/trjcZQYHlScHX35r/scene.splinecode"></spline-viewer>  
       </div>
-      <div className='flex justify-between flex-col xl:basis-1/3'>
+      <div className='flex justify-evenly flex-col xl:basis-1/3'>
         <h1 className='font-primary font-bold text-3xl xl:text-6xl text-center xl:text-right'>Always keep your assets with you, securely!</h1>
         <p className='text-[#ffffffa5] font-secondary text-base xl:text-xl text-center xl:text-right xl:flex hidden justify-end '>Dextr is a non-custodial exchange <br /> for crypto and real-world   assets powered by Soulbound Tokens ♾️</p>
         <p className='text-[#ffffffa5] font-secondary text-base text-center xl:hidden '>Dextr is a non-custodial exchange <br /> for crypto and real-world   assets powered by Soulbound Tokens ♾️</p>
