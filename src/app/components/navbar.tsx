@@ -21,8 +21,8 @@ export default function Navbar() {
       <div className='flex gap-32 '>
         <Image src={Logo} alt="Dextr Logo" width={150} height={100} />
       <div className='text-[#01C3F1] font-bold hidden xl:flex gap-12 justify-center items-center text-xs'>    
-        <Link href="#features" className={`hover:underline underline-offset-8 duration-150`} >FEATURES</Link>
-        <Link href="#features" className={`hover:underline underline-offset-8 duration-150`} >WHITEPAPER</Link>
+        <a href="#features" className={`hover:underline underline-offset-8 duration-150`} >FEATURES</a>
+        <a href="#features" className={`hover:underline underline-offset-8 duration-150`} >WHITEPAPER</a>
         <a href="mailto:info@dextr.exchange" className={`hover:underline underline-offset-8 duration-150`} >CONTACT</a>
       </div>
       </div>
@@ -45,7 +45,7 @@ export default function Navbar() {
             <li className="text-xl w-full my-2 font-primary ">
               <AiOutlineClose onClick={()=> setToggleMenu(false)}/></li>
               <Link href="#features" className={`hover:underline underline-offset-8 duration-150 mr-7`} >FEATURES</Link>
-        <Link href="#features" className={`hover:underline underline-offset-8 duration-150 mr-7`} >WHITEPAPER</Link>
+        <a href="#features" className={`hover:underline underline-offset-8 duration-150 mr-7`} >WHITEPAPER</a>
          <a href="mailto:info@dextr.exchange" className={`hover:underline underline-offset-8 duration-150 mr-7`} >CONTACT</a>
          <a href='https://t.co/pojv7w0GmG' rel='noopener noreferrer' target='_blank' className={`underline underline-offset-8 duration-150 mr-7`} >LAUNCH APP</a>
 
