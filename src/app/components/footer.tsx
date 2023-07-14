@@ -2,8 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import Logo from '../images/companylogo.svg'
 import {AiOutlineTwitter} from 'react-icons/ai'
-import {FaTelegramPlane} from 'react-icons/fa'
 import {AiFillMediumCircle} from 'react-icons/ai'
+import {AiFillYoutube} from 'react-icons/ai'
+import {AiFillInstagram} from 'react-icons/ai'
 
 export default function footer() {
   return (
@@ -14,19 +15,20 @@ export default function footer() {
         </div>
         <div className='flex gap-12 pt-5'>
           {/* icons */}
-          <a href="https://twitter.com/Dextr_Exchange" target="_blank" rel="noopener noreferrer"><AiOutlineTwitter fontSize={34} className="hover:text-cyan-300" /></a>
-          <a href="https://twitter.com/Dextr_Exchange" target="_blank" rel="noopener noreferrer"><FaTelegramPlane fontSize={34} className="hover:text-cyan-300" /></a>
-          <a href="https://twitter.com/Dextr_Exchange" target="_blank" rel="noopener noreferrer"><AiFillMediumCircle fontSize={34} className="hover:text-cyan-300" /></a>
+          <a href="https://twitter.com/Dextr_Exchange" target="_blank" rel="noopener noreferrer"><AiOutlineTwitter fontSize={34} className="hover:text-cyan-300" /></a>          
+          <a href="https://twitter.com/Dextr_Exchange" target="_blank" rel="noopener noreferrer"><AiFillYoutube fontSize={34} className="hover:text-cyan-300" /></a>
+          <a href="https://twitter.com/Dextr_Exchange" target="_blank" rel="noopener noreferrer"><AiFillInstagram fontSize={34} className="hover:text-cyan-300" /></a>
+          <a href="https://medium.com/@dextr-ex" target="_blank" rel="noopener noreferrer"><AiFillMediumCircle fontSize={34} className="hover:text-cyan-300" /></a>
         </div>
       </div>
-      <div className='flex xl:px-20 xl:py-20 px-3 py-12 flex-col xl:flex-row'>
+      <div className='flex xl:px-20 justify-between xl:py-20 px-3 py-12 flex-col xl:flex-row'>
         <div className='flex flex-col justify-center xl:justify-start'>
           <div className='flex justify-center xl:justify-start'><Image src={Logo} alt="Dextr Logo" width={150} height={100} /></div>
-          <p className='xl:w-1/3 text-[#ffffffcb] font-secondary text-center xl:text-left font-normal' >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam deleniti doloribus labore recusandae quibusdam, obcaecati nihil ea unde eligendi quod. Optio facilis rerum vero aperiam placeat itaque vel beatae ipsa?</p>
+          <p className='xl:w-1/3 text-[#ffffffcb] font-secondary text-center xl:text-left font-normal' >A web3 protocol that enables peer-to-peer exchange of digital assets using Account Abstraction enabled by Soulbound Tokens (SBTs)</p>
         </div>
         <div className='flex flex-col font-bold font-primary pt-8 xl:pt-0 gap-3 text-center xl:text-right'>
           <a href="http://" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300">Whitepaper</a>
-          <a href="http://" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300">Waitlist</a>
+          <a href="https://t.co/pojv7w0GmG" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300">Waitlist</a>
         </div>
       </div>
       <div className='border-t xl:mx-16 mx-6'>
