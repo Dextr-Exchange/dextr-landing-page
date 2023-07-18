@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Arbitrum from '../images/arbitrum.svg'
 import Arcana from '../images/arcana.svg'
 import Aurora from '../images/aurora.svg'
 import Biconomy from '../images/biconomy.svg'
@@ -9,10 +10,11 @@ import Polybase from '../images/polybase.svg'
 import Polygontech from '../images/polygontech.svg'
 import Router from '../images/router.svg'
 import Transak from '../images/transak.svg'
+import Ethereum from '../images/Ethereum.svg'
 
 export default function partners() {
     const images = [
-        Arcana, Aurora, Biconomy, Bsc, Ef, Polybase, Polygontech, Router, Transak    
+        Arbitrum, Arcana, Aurora, Biconomy, Bsc, Ethereum, Polybase, Polygontech, Router, Transak     
     ].map((image) => ({
         id: crypto.randomUUID(),
         image

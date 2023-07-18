@@ -13,7 +13,7 @@ export default function hero() {
           <h1 className='font-primary font-bold text-5xl md:text-8xl md:text-left text-center  md:leading-[7.15rem] '>Stop Trading Security for Convenience</h1>
         </div>        
         <div>
-          <p className='md:text-left text-center font-secondary text-[#ffffffa5] md:text-xl '> <span className='text-white underline underline-offset-4'>Discover Dextr :</span> Empowering your crypto journey with unmatched security, seamless convenience, and prosperous profitability. Say goodbye to key loss, front-running attacks, wash trading, bridge hacks, and plutocratic governance, and shield yourself from multi-billion-dollar losses</p>
+          <p className='md:text-left text-center font-secondary text-[#ffffffa5] md:text-xl '> <span className='text-white underline underline-offset-4'>Discover Dextr :</span> A non-custodial exchange offering unmatched security, seamless convenience, and prosperous profitability. Say goodbye to key loss, front-running attacks, wash trading, bridge hacks, and plutocratic governance, and shield yourself from multi-billion-dollar losses</p>
         </div> 
         <div className='mt-4 flex flex-col md:flex-row gap-8 md:justify-start md:text-left text-center justify-center'>
           <a href='https://t.co/pojv7w0GmG' rel="noopener noreferrer" target='_blank' className='text-[#00091B] buttonNotch font-primary font-bold text-xs md:text-sm md:px-10 py-3'>JOIN WAITLIST</a>  
