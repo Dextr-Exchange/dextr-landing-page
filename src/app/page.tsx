@@ -4,6 +4,7 @@ import Partners from "./components/partners"
 import Laptop from "./components/laptop"
 import Features from "./components/features"
 import Difference from "./components/difference"
+import FAQs from "./components/faqs"
 import Footer from "./components/footer"
 
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Laptop />
       <Features />
       <Difference />
+      <FAQs />
       <Footer />
     </div>
 

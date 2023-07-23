@@ -4,6 +4,7 @@ import Image from 'next/image'
 import HeroImage from '../images/heroImage.svg'
 
 export default function hero() {
+
   
   return (
     <section className=' '>
