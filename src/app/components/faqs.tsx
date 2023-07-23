@@ -5,17 +5,22 @@ import {AiOutlineDown} from 'react-icons/ai'
 
 const FAQAccordian = (props:any) => {
     const [show, setShow] = React.useState(false)
+    function handleHidden(){
+        if(show){
+            
+        }
+    }
 
     return(
         <div className='px-3 border-b overflow-hidden border-neutral-500 my-10 pb-5 ' onClick={()=>setShow(!show)}>
             <div className='flex justify-between gap-5 hover:cursor-pointer'>
                 <h3 className='font-primary font-bold text-lg md:text-2xl'>{props.question}</h3>
                 <button>
-                    {show ? <AiOutlineDown className='text-[#01C3F1] transform rotate-0 duration-300' /> : <AiOutlineDown className='text-[#01C3F1] transform rotate-180 duration-300' />}
+                    {!show ? <AiOutlineDown className='text-[#01C3F1] transform rotate-0 duration-300' /> : <AiOutlineDown className='text-[#01C3F1] transform rotate-180 duration-300' />}
                 </button>
             </div>
-            <div className={`py-3 ${show ? "opacity-100 transform translate-y-0 duration-300" : "hidden opacity-0 transform  -translate-y-6 duration-300"}`}>
-                <p className='px-2 font-secondary text-[#a7a7a7] text-xs md:text-base'>{props.answer}</p>
+            <div className={`py-3 ${show ? " transform translate-y-0 duration-300" : " transform  -translate-y-6 duration-300"}`}>
+                <p className={`px-2 font-secondary text-[#a7a7a7] text-xs md:text-base ${show ? "" : "HiddenFAQ"} `}>{props.answer}</p>
             </div>
         </div>
     )
@@ -92,7 +97,7 @@ export default function faqs() {
       
       
   return (
-    <div className='px-3 md:px-20'>
+    <div className='px-3 md:px-20 my-12 xl:my-20'>
         <h1 className='text-center font-primary text-2xl font-bold xl:text-4xl'>
             FAQs
         </h1>
