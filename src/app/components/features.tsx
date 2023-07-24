@@ -36,10 +36,10 @@ export default function features() {
         </div>
         <div className="flex flex-col justify-center items-center xl:justify-end xl:items-end">
           <h1 className="font-bold text-center xl:text-right font-primary text-3xl xl:text-5xl">
-          Seamless "On-Chain" Trading
+          Seamless "Cross-Chain" Trading
           </h1>
           <p className=" xl:w-2/3 font-secondary text-center xl:text-right mt-10 text-xl text-[#ffffffa5]">
-          Discover the power of On-Chain Orderbook, Single sided liquidity, Best Price Discovery, and Bridgeless Cross-chain Settlement. Experience transparent, secure, and seamless trading for maximum profit potential.
+          Discover the power of On-Chain Orderbook, Dynamic AMMs, Best Price Discovery, and Bridgeless Cross-chain Settlement. Experience transparent, secure, and seamless trading for maximum profit potential.
 
           </p>
         </div>
