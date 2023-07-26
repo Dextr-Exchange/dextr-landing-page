@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import HeroImage from '../images/heroImage.svg'
+import Working from '../images/workingss.svg'
 
 export default function hero() {
 
@@ -22,7 +23,7 @@ export default function hero() {
         </div>       
       </div>
       <div className='md:basis-1/2 card flex justify-center ' >
-        <Image src={HeroImage} alt="Dextr Hero Image" objectFit='contain' />
+        <Image src={Working} alt="Dextr Hero Image" objectFit='contain' />
       </div>
       </div>
 

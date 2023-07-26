@@ -22,13 +22,13 @@ export default function Navbar() {
         <Image src={Logo} alt="Dextr Logo" width={150} height={100} />
       <div className='text-[#01C3F1] font-bold hidden xl:flex gap-12 justify-center items-center text-xs'>    
         <a href="#features" className={`hover:underline underline-offset-8 duration-150`} >FEATURES</a>
-        <a href="#features" className={`hover:underline underline-offset-8 duration-150`} >WHITEPAPER</a>
+        <a href="" className={`hover:underline underline-offset-8 duration-150 `}  > WHITEPAPER <span className='bg-purple-500 text-white rounded-full text-[0.6rem] no-underline px-1 text-center'>Coming Soon</span></a>
         <a href="mailto:info@dextr.exchange" className={`hover:underline underline-offset-8 duration-150`} >CONTACT</a>
       </div>
       </div>
       <div>
         <a href='https://t.co/pojv7w0GmG' rel='noopener noreferrer' target='_blank' className='font-primary hidden xl:block font-bold text-[#00091B] bg-gradient-radial from-[#ececec] to-[#bababa] px-8 py-1.5 rounded-full border border-[#878787] hover:to-[#ffffffe7] duration-300'>
-          Launch App
+          App Coming Soon
         </a>
       </div>
     </div>

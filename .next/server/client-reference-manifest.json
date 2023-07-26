@@ -1,1 +1,439 @@
-{"ssrModuleMapping":{"109":{"*":{"id":"3191","name":"*","chunks":[],"async":false}},"432":{"*":{"id":"1101","name":"*","chunks":[],"async":false}},"1119":{"*":{"id":"8540","name":"*","chunks":[],"async":false}},"2306":{"*":{"id":"7833","name":"*","chunks":[],"async":false}},"2353":{"*":{"id":"8709","name":"*","chunks":[],"async":false}},"3029":{"*":{"id":"9556","name":"*","chunks":[],"async":false}},"3366":{"*":{"id":"960","name":"*","chunks":[],"async":false}},"4818":{"*":{"id":"1399","name":"*","chunks":[],"async":false}},"5643":{"*":{"id":"7050","name":"*","chunks":[],"async":false}},"5932":{"*":{"id":"8866","name":"*","chunks":[],"async":false}},"6030":{"*":{"id":"8889","name":"*","chunks":[],"async":false}},"6059":{"*":{"id":"6719","name":"*","chunks":[],"async":false}},"6496":{"*":{"id":"1454","name":"*","chunks":[],"async":false}},"7330":{"*":{"id":"7734","name":"*","chunks":[],"async":false}},"7673":{"*":{"id":"3874","name":"*","chunks":[],"async":false}},"7711":{"*":{"id":"9180","name":"*","chunks":[],"async":false}},"8074":{"*":{"id":"6935","name":"*","chunks":[],"async":false}},"8531":{"*":{"id":"9150","name":"*","chunks":[],"async":false}},"8678":{"*":{"id":"7286","name":"*","chunks":[],"async":false}},"8741":{"*":{"id":"2135","name":"*","chunks":[],"async":false}},"9180":{"*":{"id":"2698","name":"*","chunks":[],"async":false}},"9852":{"*":{"id":"2669","name":"*","chunks":[],"async":false}}},"edgeSSRModuleMapping":{},"clientModules":{"/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/error-boundary.js":{"id":7330,"name":"*","chunks":["272:static/chunks/webpack-ec0f6383c031af42.js","253:static/chunks/bce60fc1-0a48502d20cadece.js","698:static/chunks/698-3aa7b97af17dcacf.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/error-boundary.js":{"id":7330,"name":"*","chunks":["272:static/chunks/webpack-ec0f6383c031af42.js","253:static/chunks/bce60fc1-0a48502d20cadece.js","698:static/chunks/698-3aa7b97af17dcacf.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/app-router.js":{"id":2353,"name":"*","chunks":["272:static/chunks/webpack-ec0f6383c031af42.js","253:static/chunks/bce60fc1-0a48502d20cadece.js","698:static/chunks/698-3aa7b97af17dcacf.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/app-router.js":{"id":2353,"name":"*","chunks":["272:static/chunks/webpack-ec0f6383c031af42.js","253:static/chunks/bce60fc1-0a48502d20cadece.js","698:static/chunks/698-3aa7b97af17dcacf.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/layout-router.js":{"id":9180,"name":"*","chunks":["272:static/chunks/webpack-ec0f6383c031af42.js","253:static/chunks/bce60fc1-0a48502d20cadece.js","698:static/chunks/698-3aa7b97af17dcacf.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/layout-router.js":{"id":9180,"name":"*","chunks":["272:static/chunks/webpack-ec0f6383c031af42.js","253:static/chunks/bce60fc1-0a48502d20cadece.js","698:static/chunks/698-3aa7b97af17dcacf.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/render-from-template-context.js":{"id":2306,"name":"*","chunks":["272:static/chunks/webpack-ec0f6383c031af42.js","253:static/chunks/bce60fc1-0a48502d20cadece.js","698:static/chunks/698-3aa7b97af17dcacf.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/render-from-template-context.js":{"id":2306,"name":"*","chunks":["272:static/chunks/webpack-ec0f6383c031af42.js","253:static/chunks/bce60fc1-0a48502d20cadece.js","698:static/chunks/698-3aa7b97af17dcacf.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js":{"id":8531,"name":"*","chunks":["272:static/chunks/webpack-ec0f6383c031af42.js","253:static/chunks/bce60fc1-0a48502d20cadece.js","698:static/chunks/698-3aa7b97af17dcacf.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js":{"id":8531,"name":"*","chunks":["272:static/chunks/webpack-ec0f6383c031af42.js","253:static/chunks/bce60fc1-0a48502d20cadece.js","698:static/chunks/698-3aa7b97af17dcacf.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/globals.css":{"id":8410,"name":"*","chunks":["185:static/chunks/app/layout-7ebf3754f76f4861.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/features.tsx":{"id":6059,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/faqs.tsx":{"id":5643,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/arbitrum.svg":{"id":1119,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/Ethereum.svg":{"id":7673,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/image-component.js":{"id":3029,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/image-component.js":{"id":3029,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/companylogo.svg":{"id":8074,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/arcana.svg":{"id":6496,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/navbar.tsx":{"id":5932,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/hero.tsx":{"id":3366,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/aurora.svg":{"id":8678,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/polybase.svg":{"id":4818,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/polygontech.svg":{"id":6030,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/biconomy.svg":{"id":7711,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/bsc.svg":{"id":9852,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/router.svg":{"id":109,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/transak.svg":{"id":432,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false},"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/difference.tsx":{"id":8741,"name":"*","chunks":["877:static/chunks/5a0a5f12-a186d72d47e4c29a.js","173:static/chunks/539bbe41-ba14acbff195aff7.js","668:static/chunks/668-5b4b656f1a261f7f.js","931:static/chunks/app/page-db43faca199e4ca3.js"],"async":false}},"entryCSSFiles":{"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/layout":["static/css/48ab8bc88c0d10ec.css"],"/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/page":["static/css/f39dd128be4dbe59.css"]}}
+{
+  "ssrModuleMapping": {
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image-component.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/arbitrum.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/arbitrum.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/arcana.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/arcana.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/aurora.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/aurora.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/biconomy.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/biconomy.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/bsc.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/bsc.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/polybase.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/polybase.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/polygontech.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/polygontech.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/router.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/router.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/transak.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/transak.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/Ethereum.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/Ethereum.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/hero.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/hero.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/features.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/features.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/faqs.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/faqs.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/companylogo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/companylogo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/difference.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/difference.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/laptop.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/laptop.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/navbar.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    }
+  },
+  "edgeSSRModuleMapping": {},
+  "clientModules": {
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/arbitrum.svg": {
+      "id": "(app-client)/./src/app/images/arbitrum.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/arcana.svg": {
+      "id": "(app-client)/./src/app/images/arcana.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/aurora.svg": {
+      "id": "(app-client)/./src/app/images/aurora.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/biconomy.svg": {
+      "id": "(app-client)/./src/app/images/biconomy.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/bsc.svg": {
+      "id": "(app-client)/./src/app/images/bsc.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/polybase.svg": {
+      "id": "(app-client)/./src/app/images/polybase.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/polygontech.svg": {
+      "id": "(app-client)/./src/app/images/polygontech.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/router.svg": {
+      "id": "(app-client)/./src/app/images/router.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/transak.svg": {
+      "id": "(app-client)/./src/app/images/transak.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/Ethereum.svg": {
+      "id": "(app-client)/./src/app/images/Ethereum.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/hero.tsx": {
+      "id": "(app-client)/./src/app/components/hero.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/features.tsx": {
+      "id": "(app-client)/./src/app/components/features.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/faqs.tsx": {
+      "id": "(app-client)/./src/app/components/faqs.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/companylogo.svg": {
+      "id": "(app-client)/./src/app/images/companylogo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/difference.tsx": {
+      "id": "(app-client)/./src/app/components/difference.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/laptop.svg": {
+      "id": "(app-client)/./src/app/images/laptop.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/navbar.tsx": {
+      "id": "(app-client)/./src/app/components/navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/globals.css": {
+      "id": "(app-client)/./src/app/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    }
+  },
+  "entryCSSFiles": {
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/page": [
+      "static/css/app/page.css"
+    ],
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/layout": [
+      "static/css/app/layout.css"
+    ]
+  }
+}
