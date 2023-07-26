@@ -700,6 +700,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(0 9 27 / var(--tw-bg-opacity));
 }
+.bg-purple-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
+}
 .bg-bgPattern{
   background-image: url('/grid7.png');
 }
@@ -796,6 +800,18 @@ video {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
+.px-0{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.px-0\.5{
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
+}
+.px-1\.5{
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+}
 .pb-5{
   padding-bottom: 1.25rem;
 }
@@ -862,6 +878,12 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-\[0\.5rem\]{
+  font-size: 0.5rem;
+}
+.text-\[0\.6rem\]{
+  font-size: 0.6rem;
+}
 .font-bold{
   font-weight: 700;
 }
@@ -894,8 +916,14 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.text-\[\]{
+  color: ;
+}
 .underline{
   text-decoration-line: underline;
+}
+.no-underline{
+  text-decoration-line: none;
 }
 .underline-offset-4{
   text-underline-offset: 4px;
@@ -1048,6 +1076,10 @@ video {
 
   .hover\:underline:hover{
   text-decoration-line: underline;
+}
+
+  .hover\:no-underline:hover{
+  text-decoration-line: none;
 }
 
   @media (min-width: 768px){
