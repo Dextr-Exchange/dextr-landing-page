@@ -86,6 +86,7 @@ export default function difference() {
           <FeatureCard title={item.title} description={item.description} image={item.image}/>
           </SwiperSlide>
       ))}
+      
     </Swiper>
 
           {/* <FeatureCard title="Secure Ownership, Today & Tomorrow!" description="With recoverability in case of lost private keys and facilitation of succession planning, your ownership remains secure and future-proofed. Enjoy peace of mind and long-term security for your digital assets." image={Diff1}/> */}
