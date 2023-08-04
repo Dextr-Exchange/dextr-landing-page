@@ -27,7 +27,7 @@ export default function footer() {
           <p className='xl:w-1/3 text-[#ffffffcb] font-secondary text-center xl:text-left font-normal' >A web3 protocol that enables peer-to-peer exchange of digital assets using Account Abstraction enabled by Soulbound Tokens (SBTs)</p>
         </div>
         <div className='flex flex-col font-bold font-primary pt-8 xl:pt-0 gap-3 text-center xl:text-right'>
-          <a href="http://" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300">Whitepaper</a>
+          <a href="https://dextr.gitbook.io/whitepaper/" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300">Whitepaper</a>
           <a href="https://t.co/pojv7w0GmG" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300">Waitlist</a>
         </div>
       </div>
