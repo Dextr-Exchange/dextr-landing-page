@@ -168,17 +168,17 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/images/companylogo.svg": {
+    "(app-client)/./src/app/components/difference.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/images/companylogo.svg",
+        "id": "(sc_client)/./src/app/components/difference.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/app/components/difference.tsx": {
+    "(app-client)/./src/app/images/companylogo.svg": {
       "*": {
-        "id": "(sc_client)/./src/app/components/difference.tsx",
+        "id": "(sc_client)/./src/app/images/companylogo.svg",
         "name": "*",
         "chunks": [],
         "async": false
@@ -403,16 +403,16 @@
       ],
       "async": false
     },
-    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/companylogo.svg": {
-      "id": "(app-client)/./src/app/images/companylogo.svg",
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/difference.tsx": {
+      "id": "(app-client)/./src/app/components/difference.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/difference.tsx": {
-      "id": "(app-client)/./src/app/components/difference.tsx",
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/companylogo.svg": {
+      "id": "(app-client)/./src/app/images/companylogo.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

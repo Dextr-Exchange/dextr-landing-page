@@ -22,7 +22,7 @@ export default function Navbar() {
         <Image src={Logo} alt="Dextr Logo" width={150} height={100} />
       <div className='text-[#01C3F1] font-bold hidden xl:flex gap-12 justify-center items-center text-xs'>    
         <a href="#features" className={`hover:underline underline-offset-8 duration-150`} >FEATURES</a>
-        <a href="" className={`hover:underline underline-offset-8 duration-150 `}  > WHITEPAPER <span className='bg-purple-500 text-white rounded-full text-[0.6rem] no-underline px-1 text-center'>Coming Soon</span></a>
+        <a href="https://dextr.gitbook.io/whitepaper/" target="_blank" rel="noopener noreferrer" className={`hover:underline underline-offset-8 duration-150 `}  > WHITEPAPER </a>
         <a href="mailto:info@dextr.exchange" className={`hover:underline underline-offset-8 duration-150`} >CONTACT</a>
       </div>
       </div>
@@ -45,7 +45,7 @@ export default function Navbar() {
             <li className="text-xl w-full my-2 font-primary ">
               <AiOutlineClose onClick={()=> setToggleMenu(false)}/></li>
               <Link href="#features" className={`hover:underline underline-offset-8 duration-150 mr-7`} >FEATURES</Link>
-        <a href="#features" className={`hover:underline underline-offset-8 duration-150 mr-7`} >WHITEPAPER</a>
+        <a href="https://dextr.gitbook.io/whitepaper/" target="_blank" rel="noopener noreferrer" className={`hover:underline underline-offset-8 duration-150 mr-7`} >WHITEPAPER</a>
          <a href="mailto:info@dextr.exchange" className={`hover:underline underline-offset-8 duration-150 mr-7`} >CONTACT</a>
          <a href='https://t.co/pojv7w0GmG' rel='noopener noreferrer' target='_blank' className={`underline underline-offset-8 duration-150 mr-7`} >LAUNCH APP</a>
 
