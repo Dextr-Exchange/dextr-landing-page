@@ -18,7 +18,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
       <link rel="icon" type="image/svg+xml" href="/companylogo.svg" />
-        <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.383/build/spline-viewer.js"></script>
       </head>
       <body>{children}</body>
     </html>

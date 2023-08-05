@@ -19,7 +19,7 @@ export default function hero() {
         </div> 
         <div className='mt-4 flex flex-col md:flex-row gap-8 md:justify-start md:text-left text-center justify-center'>
           <a href='https://t.co/pojv7w0GmG' rel="noopener noreferrer" target='_blank' className='text-[#00091B] buttonNotch font-primary font-bold text-xs md:text-sm md:px-10 py-3'>JOIN WAITLIST</a>  
-          <a href='' rel='noopener noreferrer' target='_blank' className='text-[#fff] buttonNotch2 font-primary font-bold text-xs md:text-sm md:px-12 py-3'>SEE WHITEPAPER</a>  
+          <a href='https://dextr.gitbook.io/whitepaper/' rel='noopener noreferrer' target='_blank' className='text-[#fff] buttonNotch2 font-primary font-bold text-xs md:text-sm md:px-12 py-3'>SEE WHITEPAPER</a>  
         </div>       
       </div>
       <div className='md:basis-1/2 card flex justify-center ' >

@@ -700,10 +700,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(0 9 27 / var(--tw-bg-opacity));
 }
-.bg-purple-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(168 85 247 / var(--tw-bg-opacity));
-}
 .bg-bgPattern{
   background-image: url('/grid7.png');
 }
@@ -846,9 +842,6 @@ video {
   font-size: 3rem;
   line-height: 1;
 }
-.text-\[0\.6rem\]{
-  font-size: 0.6rem;
-}
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -903,9 +896,6 @@ video {
 }
 .underline{
   text-decoration-line: underline;
-}
-.no-underline{
-  text-decoration-line: none;
 }
 .underline-offset-4{
   text-underline-offset: 4px;
