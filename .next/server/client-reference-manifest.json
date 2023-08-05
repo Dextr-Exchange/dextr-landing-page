@@ -160,17 +160,17 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/components/faqs.tsx": {
+    "(app-client)/./src/app/components/difference.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/components/faqs.tsx",
+        "id": "(sc_client)/./src/app/components/difference.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./src/app/components/difference.tsx": {
+    "(app-client)/./src/app/components/faqs.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/components/difference.tsx",
+        "id": "(sc_client)/./src/app/components/faqs.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -395,16 +395,16 @@
       ],
       "async": false
     },
-    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/faqs.tsx": {
-      "id": "(app-client)/./src/app/components/faqs.tsx",
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/difference.tsx": {
+      "id": "(app-client)/./src/app/components/difference.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/difference.tsx": {
-      "id": "(app-client)/./src/app/components/difference.tsx",
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/faqs.tsx": {
+      "id": "(app-client)/./src/app/components/faqs.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
