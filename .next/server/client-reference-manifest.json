@@ -1,6 +1,463 @@
 {
-  "ssrModuleMapping": {},
+  "ssrModuleMapping": {
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image-component.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/navbar.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/hero.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/hero.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/arbitrum.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/arbitrum.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/arcana.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/arcana.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/aurora.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/aurora.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/biconomy.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/biconomy.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/bsc.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/bsc.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/polybase.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/polybase.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/polygontech.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/polygontech.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/router.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/router.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/transak.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/transak.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/Ethereum.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/Ethereum.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/laptop.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/laptop.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/features.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/features.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/difference.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/difference.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/faqs.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/faqs.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/images/companylogo.svg": {
+      "*": {
+        "id": "(sc_client)/./src/app/images/companylogo.svg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/script.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    }
+  },
   "edgeSSRModuleMapping": {},
-  "clientModules": {},
-  "entryCSSFiles": {}
+  "clientModules": {
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/error-boundary.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/app-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/layout-router.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:static/chunks/app-client-internals.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/navbar.tsx": {
+      "id": "(app-client)/./src/app/components/navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/hero.tsx": {
+      "id": "(app-client)/./src/app/components/hero.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/arbitrum.svg": {
+      "id": "(app-client)/./src/app/images/arbitrum.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/arcana.svg": {
+      "id": "(app-client)/./src/app/images/arcana.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/aurora.svg": {
+      "id": "(app-client)/./src/app/images/aurora.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/biconomy.svg": {
+      "id": "(app-client)/./src/app/images/biconomy.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/bsc.svg": {
+      "id": "(app-client)/./src/app/images/bsc.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/polybase.svg": {
+      "id": "(app-client)/./src/app/images/polybase.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/polygontech.svg": {
+      "id": "(app-client)/./src/app/images/polygontech.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/router.svg": {
+      "id": "(app-client)/./src/app/images/router.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/transak.svg": {
+      "id": "(app-client)/./src/app/images/transak.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/Ethereum.svg": {
+      "id": "(app-client)/./src/app/images/Ethereum.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/laptop.svg": {
+      "id": "(app-client)/./src/app/images/laptop.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/features.tsx": {
+      "id": "(app-client)/./src/app/components/features.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/difference.tsx": {
+      "id": "(app-client)/./src/app/components/difference.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/components/faqs.tsx": {
+      "id": "(app-client)/./src/app/components/faqs.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/images/companylogo.svg": {
+      "id": "(app-client)/./src/app/images/companylogo.svg",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/client/script.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/node_modules/next/dist/esm/client/script.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/globals.css": {
+      "id": "(app-client)/./src/app/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    }
+  },
+  "entryCSSFiles": {
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/page": [
+      "static/css/app/page.css"
+    ],
+    "/Users/kanishkkhurana/Desktop/dextr/landing-page/src/app/layout": [
+      "static/css/app/layout.css"
+    ]
+  }
 }

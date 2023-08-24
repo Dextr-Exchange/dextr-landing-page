@@ -18,7 +18,7 @@ export default function hero() {
           <p className='md:text-left text-center font-secondary text-[#ffffffa5] md:text-xl '> <span className='text-white underline underline-offset-4'>Discover Dextr :</span> An account abstraction-based non-custodial exchange built using dynamic soul bound tokens.</p>
         </div> 
         <div className='mt-4 flex flex-col md:flex-row gap-8 md:justify-start md:text-left text-center justify-center'>
-          <a href='https://t.co/pojv7w0GmG' rel="noopener noreferrer" target='_blank' className='text-[#00091B] buttonNotch font-primary font-bold text-xs md:text-sm md:px-10 py-3'>JOIN WAITLIST</a>  
+          <a href='https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=twitter&utm_medium=Zoho+Social' rel="noopener noreferrer" target='_blank' className='text-[#00091B] buttonNotch font-primary font-bold text-xs md:text-sm md:px-10 py-3'>JOIN WAITLIST</a>  
           <a href='https://dextr.gitbook.io/whitepaper/' rel='noopener noreferrer' target='_blank' className='text-[#fff] buttonNotch2 font-primary font-bold text-xs md:text-sm md:px-12 py-3'>SEE WHITEPAPER</a>  
         </div>       
       </div>
