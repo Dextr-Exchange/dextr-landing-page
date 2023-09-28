@@ -27,7 +27,7 @@ export default function Navbar() {
       </div>
       </div>
       <div>
-        <a href='https://t.co/pojv7w0GmG' rel='noopener noreferrer' target='_blank' className='font-primary hidden xl:block font-bold text-[#00091B] bg-gradient-radial from-[#ececec] to-[#bababa] px-8 py-1.5 rounded-full border border-[#878787] hover:to-[#ffffffe7] duration-300'>
+        <a href='https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=twitter&utm_medium=Zoho+SocialmG' rel='noopener noreferrer' target='_blank' className='font-primary hidden xl:block font-bold text-[#00091B] bg-gradient-radial from-[#ececec] to-[#bababa] px-8 py-1.5 rounded-full border border-[#878787] hover:to-[#ffffffe7] duration-300'>
           App Coming Soon
         </a>
       </div>
@@ -47,7 +47,7 @@ export default function Navbar() {
               <Link href="#features" className={`hover:underline underline-offset-8 duration-150 mr-7`} >FEATURES</Link>
         <a href="https://dextr.gitbook.io/whitepaper/" target="_blank" rel="noopener noreferrer" className={`hover:underline underline-offset-8 duration-150 mr-7`} >WHITEPAPER</a>
          <a href="mailto:info@dextr.exchange" className={`hover:underline underline-offset-8 duration-150 mr-7`} >CONTACT</a>
-         <a href='https://t.co/pojv7w0GmG' rel='noopener noreferrer' target='_blank' className={`underline underline-offset-8 duration-150 mr-7`} >LAUNCH APP</a>
+         <a href='https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=twitter&utm_medium=Zoho+SocialmG' rel='noopener noreferrer' target='_blank' className={`underline underline-offset-8 duration-150 mr-7`} >App Coming Soon</a>
 
 
           </ul>
