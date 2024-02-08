@@ -6,7 +6,7 @@ import Features from "./components/features"
 import Difference from "./components/difference"
 import FAQs from "./components/faqs"
 import Footer from "./components/footer"
-
+import PoweredBy from "./components/poweredBy"
 
 
 export default function Home() {
@@ -15,7 +15,8 @@ export default function Home() {
       <div className="bg-gradient-to-t to-[#0466c879]  from-transparent via-transparent">
         <Navbar />
         <Hero />
-        <Partners />
+        <PoweredBy />
+        {/* <Partners /> */}
       </div>
       <Laptop />
       <Features />

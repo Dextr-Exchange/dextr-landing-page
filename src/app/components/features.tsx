@@ -17,10 +17,7 @@ export default function features() {
             Fortified “ Decentralized ” Custody
           </h1>
           <p className="xl:w-2/3  xl:text-left text-center font-secondary mt-10 text-sm xl:text-xl text-[#ffffffa5]">
-            Experience unrivaled fund security with our decentralized custody
-            solution, incorporating on-chain Social Recovery, Will
-            Administration, Multi-Factor Authentication, <br /> and Multi-Party
-            Authorizations.
+            Degen Mode: Perfect for beginners with easy swaps and a user-friendly interface, minimal price impact and reduced slippage. Option to follow experienced traders via copy trading. 
           </p>
         </div>
         <div className={`overflow-hidden xl:absolute right-0 duration-500  ease-in-out ${isHovered ? "scale-125 right-10 duration-500  ease-in-out" : ""} `}>
@@ -39,9 +36,24 @@ export default function features() {
           Seamless "Cross-Chain" Trading
           </h1>
           <p className=" xl:w-2/3 font-secondary text-center xl:text-right mt-10 text-xl text-[#ffffffa5]">
-          Discover the power of On-Chain Orderbook, Dynamic AMMs, Best Price Discovery, and Bridgeless Cross-chain Settlement. Experience transparent, secure, and seamless trading for maximum profit potential.
+          Pro Mode: Designed for experienced traders familiar with order books, Algorithmic Trading Bots, spending limits, and multi-signatures.
 
           </p>
+        </div>
+      </div>
+    </div>
+    <div className=" border p-8 rounded-[50px] border-[#01C3F1] bg-gradient-to-tl from-[#d52bff49] to-transparent via-transparent overflow-hidden relative" onMouseEnter={()=>setIsHovered(true)} onMouseLeave={()=>setIsHovered(false)}>
+      <div className="flex flex-col ">
+        <div>
+          <h1 className="font-bold text-center xl:text-left font-primary text-3xl xl:text-5xl">
+            Fortified “ Decentralized ” Custody
+          </h1>
+          <p className="xl:w-2/3  xl:text-left text-center font-secondary mt-10 text-sm xl:text-xl text-[#ffffffa5]">
+            Premium Customization: Flexible configurations with MEV blockers, Liquid Staking protocols, and external DEXs for an elevated user experience!
+          </p>
+        </div>
+        <div className={`overflow-hidden xl:absolute right-0 duration-500  ease-in-out ${isHovered ? "scale-125 right-10 duration-500  ease-in-out" : ""} `}>
+          <Image src={Features2} alt="" objectFit="cover"  />
         </div>
       </div>
     </div>

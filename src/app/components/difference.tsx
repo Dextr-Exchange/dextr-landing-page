@@ -17,7 +17,7 @@ import 'swiper/css/scrollbar';
 
 const FeatureCard = (props:any) =>{
   return(
-    <div className='flex flex-col transition-colors justify-center border border-[#01C3F1] rounded-[50px] p-8 xl:pb-24 hover:bg-gradient-to-br from-[#d52bffac] duration-300 ease-in to-[#01c1f1b1] relative overflow-hidden min-h-full gap-5 mb-10'>
+    <div className='h-full flex flex-col transition-colors justify-center border border-[#01C3F1] rounded-[50px] p-8 xl:pb-24 hover:bg-gradient-to-br from-[#d52bffac] duration-300 ease-in to-[#01c1f1b1] relative overflow-hidden min-h-full gap-5 mb-10'>
       <div>
         <h3 className='font-bold font-primary xl:text-left text-center text-xl xl:text-4xl'>{props.title}</h3>
         <p className='font-normal mt-5  text-xs xl:text-xl xl:text-left text-center font-secondary xl:w-2/5'>{props.description}</p>
@@ -35,26 +35,26 @@ export default function difference() {
   const content:any = [
     {
       id: 1,
-      title: 'Secure Ownership, Today & Tomorrow!',
-      description: 'With recoverability in case of lost private keys and facilitation of succession planning, your ownership remains secure and future-proofed. Enjoy peace of mind and long-term security for your digital assets.',
+      title: 'Secure Ownership Today and Tomorrow!',
+      description: 'Benefit from advanced security features like Social Recovery, inheritance planning, MFA, and the utilization of Threshold Signature Scheme by Dextr.',
       image: Diff1
     },
     {
       id: 2,
-      title: 'Amplify Your Returns: Trade Smarter!',
-      description: 'Enjoy higher ROI as an LP by providing liquidity in a single token and earning fees from multiple pairs. Benefit from Best Price Discovery, earn Liquid Staking Rewards, and explore Copy & Algorithmic trading strategies.',
+      title: 'Bringing Capital Efficiency to DEXs!',
+      description: 'Diversify your earnings on Dextr’s RAMM. Multiple tokens in your liquidity position mean more potential pairs and higher fee rewards than traditional single-pair pools, enhancing capital efficiency in DEXs.',
       image: Diff2
     },
     {
       id: 3,
-      title: 'Your Reputation, Your Power!',
-      description: "Dextr's governance is not based on coin voting but on the reputation you earn based on your contributions to the ecosystem. Thereby  giving your reputation a voice and power to influence the direction of the platform.",
+      title: 'CEX Convenience Meets DEX Confidence!',
+      description: "Discover CEX-like efficiency with DEX trust. Enjoy a user-friendly experience with smart wallet management, Token Agnostic Fees, bridgeless trading, and cross-chain interoperability.",
       image: Diff3
     },
     {
       id: 4,
-      title: 'Trade Safely, Trade Confidently!',
-      description: 'Dextr prioritizes your security. You can trade with confidence and trust in a secure and fair trading environment with safeguards against price shocks, slippage, front running, wash trading, and bridge hacks.',
+      title: 'Empowerment Through Contribution!',
+      description: 'Participate in weighted decision-making with REP Scores influencing voting rights, LP ranking, and other platform privileges, ensuring an inclusive and fair governance system on Dextr.',
       image: Diff4
     }
   ]
