@@ -14,10 +14,10 @@ export default function features() {
       <div className="flex flex-col ">
         <div>
           <h1 className="font-bold text-center xl:text-left font-primary text-3xl xl:text-5xl">
-            Fortified “ Decentralized ” Custody
+            Degen Mode
           </h1>
           <p className="xl:w-2/3  xl:text-left text-center font-secondary mt-10 text-sm xl:text-xl text-[#ffffffa5]">
-            Degen Mode: Perfect for beginners with easy swaps and a user-friendly interface, minimal price impact and reduced slippage. Option to follow experienced traders via copy trading. 
+            Perfect for beginners with easy swaps and a user-friendly interface, minimal price impact and reduced slippage. Option to follow experienced traders via copy trading. 
           </p>
         </div>
         <div className={`overflow-hidden xl:absolute right-0 duration-500  ease-in-out ${isHovered ? "scale-125 right-10 duration-500  ease-in-out" : ""} `}>
@@ -33,10 +33,10 @@ export default function features() {
         </div>
         <div className="flex flex-col justify-center items-center xl:justify-end xl:items-end">
           <h1 className="font-bold text-center xl:text-right font-primary text-3xl xl:text-5xl">
-          Seamless "Cross-Chain" Trading
+            Pro Mode
           </h1>
           <p className=" xl:w-2/3 font-secondary text-center xl:text-right mt-10 text-xl text-[#ffffffa5]">
-          Pro Mode: Designed for experienced traders familiar with order books, Algorithmic Trading Bots, spending limits, and multi-signatures.
+            Designed for experienced traders familiar with order books, Algorithmic Trading Bots, spending limits, and multi-signatures.
 
           </p>
         </div>
@@ -46,10 +46,10 @@ export default function features() {
       <div className="flex flex-col ">
         <div>
           <h1 className="font-bold text-center xl:text-left font-primary text-3xl xl:text-5xl">
-            Fortified “ Decentralized ” Custody
+            Premium Customization
           </h1>
           <p className="xl:w-2/3  xl:text-left text-center font-secondary mt-10 text-sm xl:text-xl text-[#ffffffa5]">
-            Premium Customization: Flexible configurations with MEV blockers, Liquid Staking protocols, and external DEXs for an elevated user experience!
+            Flexible configurations with MEV blockers, Liquid Staking protocols, and external DEXs for an elevated user experience!
           </p>
         </div>
         <div className={`overflow-hidden xl:absolute right-0 duration-500  ease-in-out ${isHovered ? "scale-125 right-10 duration-500  ease-in-out" : ""} `}>
