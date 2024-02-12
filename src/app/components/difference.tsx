@@ -17,10 +17,10 @@ import 'swiper/css/scrollbar';
 
 const FeatureCard = (props:any) =>{
   return(
-    <div className='h-full flex flex-col transition-colors justify-center border border-[#01C3F1] rounded-[50px] p-8 xl:pb-24 hover:bg-gradient-to-br from-[#d52bffac] duration-300 ease-in to-[#01c1f1b1] relative overflow-hidden min-h-full gap-5 mb-10'>
+    <div className='h-auto flex flex-col transition-colors justify-center border border-[#01C3F1] rounded-[50px] p-8 xl:pb-24 hover:bg-gradient-to-br from-[#d52bffac] duration-300 ease-in to-[#01c1f1b1] relative overflow-hidden xl:max-h-[400px] gap-5 mb-10 justify-self-stretch'>
       <div className=''>
         <h3 className='font-bold font-primary xl:text-left text-center text-xl xl:text-4xl'>{props.title}</h3>
-        <p className='font-normal mt-5  text-xs xl:text-xl xl:text-left text-center font-secondary xl:w-3/5'>{props.description}</p>
+        <p className='font-normal mt-5  text-xs xl:text-lg xl:text-left text-center font-secondary xl:w-3/5'>{props.description}</p>
       </div>
       <div className='xl:absolute right-0 top-12'>
         <Image src={props.image} alt={props.title} objectFit="contain" height={400}/>
@@ -36,19 +36,19 @@ export default function difference() {
     {
       id: 1,
       title: 'Secure Ownership Today and Tomorrow!',
-      description: 'Leverage the Advantages of Sophisticated Security Features such as Social Recovery, Comprehensive Inheritance Planning, MFA, and the Innovative Utilization of the Threshold Signature Scheme by Dextr.',
+      description: 'Leverage the advantages of sophisticated security features such as social recovery, inheritance planning, multi-factor authentication, and innovative utilization of threshold signature schemes by Dextr.',
       image: Diff1
     },
     {
       id: 2,
       title: 'Bringing Capital Efficiency to DEXs!',
-      description: 'Diversify your Earnings on Dextr’s RAMM. Multiple Tokens in your Liquidity Position mean more Potential Pairs and Higher fee Rewards than Traditional Single-Pair Pools, Enhancing Capital Efficiency in DEXs.',
+      description: 'Diversify your earnings through Dextr\'s RAMM. Multiple tokens in your liquidity positions mean more potential pairs and higher fee rewards than traditional single-pair pools, enhancing capital efficiency in DEXs.',
       image: Diff2
     },
     {
       id: 3,
       title: 'CEX Convenience Meets DEX Confidence!',
-      description: "Discover CEX-like efficiency with DEX trust. Enjoy a User-Friendly Experience with Smart Wallet Management, Token Agnostic Fees, Bridgeless Trading, and Cross-Chain Interoperability.",
+      description: "Discover CEX-like efficiency with DEX trust. Enjoy a user-friendly experience with smart wallet management, token agnostic fees, bridgeless trading and cross-chain interoperability.",
       image: Diff3
     },
     {
@@ -63,12 +63,15 @@ export default function difference() {
     <div id="features" className='py-12 xl:py-28 '>
       <div className='text-center flex justify-center mx-3 xl:mx-20 flex-col gap-3'>
         <h1 className='text-3xl xl:text-6xl font-primary font-bold ' >Experience the Dextr Difference</h1>
-        <p className=' text-center xl:mx-64 text-sm xl:text-xl text-[#ffffffa5]'>Step into the Extraordinary: Unleash Unrivaled Benefits with Dextr. Immerse yourself in a captivating trading experience where robust security, cutting-edge tools, and great user experience converge, offering a pathway to the world's most user-centric exchange.
+        <p className=' text-center xl:mx-64 text-sm xl:text-xl text-[#ffffffa5]'>Step into the Extraordinary: Unleash unrivaled benefits with Dextr. Immerse yourself in a captivating trading experience where robust security, cutting-edge tools, and great user experience converge, offering a pathway to the world's most user-centric exchange.
         </p>
       </div>
       <div className='pt-6 xl:pt-12  mx-3 xl:mx-20'>
       <Swiper
-        spaceBetween={50}      
+        spaceBetween={50}
+        observer={true}
+        observeParents={true}     
+        autoHeight={true}
         slidesPerView={1.5}
         loop={true}
         grabCursor={true}

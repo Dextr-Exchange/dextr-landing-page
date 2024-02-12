@@ -21,6 +21,15 @@
     
 }
 
+.swiper-slide, .swiper-container {
+  height: 300px;
+}
+
+.buttonNotch3 {
+  background: linear-gradient(45deg, #9601F1 0, #D52BFF);
+  background-repeat: no-repeat;
+}
+
 .buttonNotch2{
     background: linear-gradient(45deg, transparent 15px, #9601F1 0, #D52BFF);
     background-repeat: no-repeat;
