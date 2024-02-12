@@ -40,6 +40,22 @@
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/script.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image-component.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/components/navbar.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/components/navbar.tsx",
@@ -64,14 +80,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/images/newFeatures.svg": {
-      "*": {
-        "id": "(sc_client)/./src/app/images/newFeatures.svg",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/components/difference.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/components/difference.tsx",
@@ -88,17 +96,9 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image-component.js": {
+    "(app-client)/./src/app/images/newFeatures.svg": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image-component.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/script.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "id": "(sc_client)/./src/app/images/newFeatures.svg",
         "name": "*",
         "chunks": [],
         "async": false
@@ -187,6 +187,46 @@
       ],
       "async": false
     },
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/node_modules/next/dist/client/script.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/node_modules/next/dist/esm/client/script.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/globals.css": {
+      "id": "(app-client)/./src/app/globals.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/node_modules/next/dist/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/node_modules/next/dist/esm/client/image-component.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/components/navbar.tsx": {
       "id": "(app-client)/./src/app/components/navbar.tsx",
       "name": "*",
@@ -211,14 +251,6 @@
       ],
       "async": false
     },
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/images/newFeatures.svg": {
-      "id": "(app-client)/./src/app/images/newFeatures.svg",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/components/difference.tsx": {
       "id": "(app-client)/./src/app/components/difference.tsx",
       "name": "*",
@@ -235,53 +267,21 @@
       ],
       "async": false
     },
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/node_modules/next/dist/client/image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/images/newFeatures.svg": {
+      "id": "(app-client)/./src/app/images/newFeatures.svg",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/node_modules/next/dist/esm/client/image-component.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image-component.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/node_modules/next/dist/client/script.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/node_modules/next/dist/esm/client/script.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/script.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/globals.css": {
-      "id": "(app-client)/./src/app/globals.css",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/page": [
-      "static/css/app/page.css"
-    ],
     "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/page": [
+      "static/css/app/page.css"
     ]
   }
 }
