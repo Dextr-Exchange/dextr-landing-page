@@ -29,7 +29,7 @@ export default function footer() {
           <p className='xl:w-1/3 text-[#ffffffcb] font-secondary text-center xl:text-left font-normal mt-5' >Dextr is a hybrid DEX featuring on-chain order books, reputation-based AMM, and seamless cross-chain interoperability.</p>
         </div>
         <div className='flex flex-col font-bold font-primary pt-8 xl:pt-0 gap-3 text-center xl:text-right'>
-          <a href="https://dextr.gitbook.io/whitepaper/" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300">Whitepaper</a>
+          <a href="https://dextr-protocol.gitbook.io/dextr-whitepaper-v2.0/" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300">Whitepaper</a>
           <a href="https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=twitter&utm_medium=Zoho+Social" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300">Waitlist</a>
         </div>
       </div>

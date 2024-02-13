@@ -22,7 +22,7 @@ export default function Navbar() {
         <Image src={Logo} alt="Dextr Logo" width={150} height={100} />
       <div className='text-[#01C3F1] font-bold hidden xl:flex gap-12 justify-center items-center text-xs'>    
         <a href="#features" className={`hover:underline underline-offset-8 duration-150`} >FEATURES</a>
-        <a href="https://dextr.gitbook.io/whitepaper/" target="_blank" rel="noopener noreferrer" className={`hover:underline underline-offset-8 duration-150 `}  > WHITEPAPER </a>
+        <a href="https://dextr-protocol.gitbook.io/dextr-whitepaper-v2.0/" target="_blank" rel="noopener noreferrer" className={`hover:underline underline-offset-8 duration-150 `}  > WHITEPAPER </a>
         <a href="mailto:info@dextr.exchange" className={`hover:underline underline-offset-8 duration-150`} >CONTACT</a>
       </div>
       </div>

@@ -20,7 +20,7 @@ export default function hero() {
         </div> 
         <div className='mt-4 flex flex-col md:flex-row gap-8 lg:justify-start lg:text-left text-center justify-center'>
           <a href='https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=twitter&utm_medium=Zoho+Social' rel="noopener noreferrer" target='_blank' className='text-[#00091B] buttonNotch font-primary font-bold text-[12px] md:text-[14px] md:px-10 py-3'>JOIN WAITLIST</a>  
-          <a href='https://dextr.gitbook.io/whitepaper/' rel='noopener noreferrer' target='_blank' className='text-[#fff] buttonNotch2 font-primary font-bold text-[12px] md:text-[14px] md:px-12 py-3'>SEE WHITEPAPER</a>  
+          <a href='https://dextr-protocol.gitbook.io/dextr-whitepaper-v2.0/' rel='noopener noreferrer' target='_blank' className='text-[#fff] buttonNotch2 font-primary font-bold text-[12px] md:text-[14px] md:px-12 py-3'>SEE WHITEPAPER</a>  
         </div>       
       </div>
       <div className='lg:basis-1/2 card flex self-start' >
