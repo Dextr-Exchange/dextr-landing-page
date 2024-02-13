@@ -558,20 +558,14 @@ video {
 .mt-10{
   margin-top: 2.5rem;
 }
+.mt-12{
+  margin-top: 3rem;
+}
 .mt-4{
   margin-top: 1rem;
 }
 .mt-5{
   margin-top: 1.25rem;
-}
-.-mt-16{
-  margin-top: -4rem;
-}
-.mt-16{
-  margin-top: 4rem;
-}
-.mt-12{
-  margin-top: 3rem;
 }
 .flex{
   display: flex;
@@ -590,9 +584,6 @@ video {
 }
 .h-3\.5{
   height: 0.875rem;
-}
-.h-auto{
-  height: auto;
 }
 .h-full{
   height: 100%;
@@ -624,6 +615,9 @@ video {
 }
 .w-full{
   width: 100%;
+}
+.w-40{
+  width: 10rem;
 }
 .-translate-y-6{
   --tw-translate-y: -1.5rem;
@@ -697,6 +691,9 @@ video {
 }
 .justify-evenly{
   justify-content: space-evenly;
+}
+.justify-stretch{
+  justify-content: stretch;
 }
 .gap-10{
   gap: 2.5rem;
@@ -1034,9 +1031,9 @@ video {
     
 }
 
-.swiper-slide, .swiper-container {
-  height: 300px;
-}
+/* .swiper-slide, .swiper-container {
+  height: max-content;
+} */
 
 .buttonNotch3 {
   background: linear-gradient(45deg, #9601F1 0, #D52BFF);
@@ -1163,6 +1160,13 @@ video {
   :is([dir="rtl"] .rtl\:rotate-180){
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+  @media not all and (min-width: 1280px){
+
+  .max-xl\:text-ellipsis{
+    text-overflow: ellipsis;
+  }
 }
 
   @media not all and (min-width: 1024px){
@@ -1339,6 +1343,14 @@ video {
     display: none;
   }
 
+  .xl\:h-44{
+    height: 11rem;
+  }
+
+  .xl\:h-36{
+    height: 9rem;
+  }
+
   .xl\:max-h-\[400px\]{
     max-height: 400px;
   }
@@ -1374,6 +1386,14 @@ video {
 
   .xl\:self-end{
     align-self: flex-end;
+  }
+
+  .xl\:text-ellipsis{
+    text-overflow: ellipsis;
+  }
+
+  .xl\:whitespace-nowrap{
+    white-space: nowrap;
   }
 
   .xl\:px-12{
@@ -1422,6 +1442,11 @@ video {
 
   .xl\:text-right{
     text-align: right;
+  }
+
+  .xl\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .xl\:text-4xl{

@@ -21,9 +21,9 @@
     
 }
 
-.swiper-slide, .swiper-container {
-  height: 300px;
-}
+/* .swiper-slide, .swiper-container {
+  height: max-content;
+} */
 
 .buttonNotch3 {
   background: linear-gradient(45deg, #9601F1 0, #D52BFF);
