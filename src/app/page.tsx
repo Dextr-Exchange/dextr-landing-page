@@ -10,8 +10,8 @@ import Footer from "./components/footer"
 
 export default function Home() {
   return (
-    <div className=" text-white bg-[#00091B] bg-bgPattern h-full">
-      <div className="bg-gradient-to-t to-[#0466c879]  from-transparent via-transparent">
+    <div className=" text-white bg-[#0c0c14] bg-bgPattern h-full">
+      <div className="bg-gradient-to-t to-[#051e3679] from-transparent via-transparent">
         <Navbar />
         <Hero />
         {/* <Partners /> */}

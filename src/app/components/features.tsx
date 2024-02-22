@@ -10,7 +10,7 @@ export default function features() {
   const [isHovered1, setIsHovered1] = useState(false);
   return (
     <div className="lg:mx-20 mx-3  my-12 lg:my-20 flex flex-col lg:gap-16 gap-6">
-    <div className=" border p-8 rounded-[50px] border-[#01C3F1] bg-gradient-to-tl from-[#d52bff49] to-transparent via-transparent overflow-hidden relative" onMouseEnter={()=>setIsHovered(true)} onMouseLeave={()=>setIsHovered(false)}>
+    <div className=" border p-8 rounded-[50px] border-[#374151] bg-gradient-to-tl from-[#034a76] to-transparent via-transparent overflow-hidden relative" onMouseEnter={()=>setIsHovered(true)} onMouseLeave={()=>setIsHovered(false)}>
       <div className="flex flex-col ">
         <div>
           <h1 className="font-bold text-center lg:text-left font-primary text-3xl lg:text-5xl">
@@ -26,7 +26,7 @@ export default function features() {
       </div>
     </div>
 
-    <div className=" border p-8 rounded-[50px] border-[#01C3F1] bg-gradient-to-tr from-[#d52bff49] to-transparent via-transparent overflow-hidden relative" onMouseEnter={()=>setIsHovered1(true)} onMouseLeave={()=>setIsHovered1(false)}>
+    <div className=" border p-8 rounded-[50px] border-[#374151] bg-gradient-to-tr from-[#034a76] to-transparent via-transparent overflow-hidden relative" onMouseEnter={()=>setIsHovered1(true)} onMouseLeave={()=>setIsHovered1(false)}>
       <div className="flex flex-col-reverse lg:flex-col">
         <div className={`overflow-hidden max-lg:hidden lg:absolute left-0 duration-500  ease-in-out ${isHovered1 ? "scale-125 left-10 duration-500  ease-in-out" : ""} `}>
           <Image src={Features1} alt="" objectFit="cover"  />
@@ -42,7 +42,7 @@ export default function features() {
         </div>
       </div>
     </div>
-    <div className=" border p-8 rounded-[50px] border-[#01C3F1] bg-gradient-to-tl from-[#d52bff49] to-transparent via-transparent overflow-hidden relative" onMouseEnter={()=>setIsHovered(true)} onMouseLeave={()=>setIsHovered(false)}>
+    <div className=" border p-8 rounded-[50px] border-[#374151] bg-gradient-to-tl from-[#034a76] to-transparent via-transparent overflow-hidden relative" onMouseEnter={()=>setIsHovered(true)} onMouseLeave={()=>setIsHovered(false)}>
       <div className="flex flex-col ">
         <div>
           <h1 className="font-bold text-center lg:text-left font-primary text-3xl lg:text-5xl">
