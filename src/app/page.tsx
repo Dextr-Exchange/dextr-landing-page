@@ -16,6 +16,7 @@ export default function Home() {
         <Hero />
         {/* <Partners /> */}
       </div>
+
       <Laptop />
       <Features />
       <Difference />
