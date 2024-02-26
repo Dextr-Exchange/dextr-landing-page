@@ -48,25 +48,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/components/navbar.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/components/navbar.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/components/hero.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/components/hero.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/components/features.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/components/features.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -88,9 +72,17 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/components/faqs.tsx": {
+    "(app-client)/./src/app/components/difference.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/components/faqs.tsx",
+        "id": "(sc_client)/./src/app/components/difference.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/features.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/components/features.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -104,17 +96,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/components/difference.tsx": {
+    "(app-client)/./src/app/components/navbar.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/components/difference.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/components/poweredBy.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/components/poweredBy.tsx",
+        "id": "(sc_client)/./src/app/components/navbar.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -227,24 +211,8 @@
       ],
       "async": false
     },
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/components/navbar.tsx": {
-      "id": "(app-client)/./src/app/components/navbar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/components/hero.tsx": {
       "id": "(app-client)/./src/app/components/hero.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/components/features.tsx": {
-      "id": "(app-client)/./src/app/components/features.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -275,8 +243,16 @@
       ],
       "async": false
     },
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/components/faqs.tsx": {
-      "id": "(app-client)/./src/app/components/faqs.tsx",
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/components/difference.tsx": {
+      "id": "(app-client)/./src/app/components/difference.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/components/features.tsx": {
+      "id": "(app-client)/./src/app/components/features.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -291,16 +267,8 @@
       ],
       "async": false
     },
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/components/difference.tsx": {
-      "id": "(app-client)/./src/app/components/difference.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/components/poweredBy.tsx": {
-      "id": "(app-client)/./src/app/components/poweredBy.tsx",
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/components/navbar.tsx": {
+      "id": "(app-client)/./src/app/components/navbar.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

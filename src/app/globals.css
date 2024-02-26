@@ -21,6 +21,15 @@
     
 }
 
+/* .swiper-slide, .swiper-container {
+  height: max-content;
+} */
+
+.buttonNotch3 {
+  background: linear-gradient(45deg, #9601F1 0, #D52BFF);
+  background-repeat: no-repeat;
+}
+
 .buttonNotch2{
     background: linear-gradient(45deg, transparent 15px, #9601F1 0, #D52BFF);
     background-repeat: no-repeat;
@@ -105,4 +114,11 @@
   .HiddenFAQ{
     display: none;
     transition: all 0.5s ease-in-out;
+  }
+
+  .banner {
+    background-image: url("./images/airdrop.jpeg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
   }
