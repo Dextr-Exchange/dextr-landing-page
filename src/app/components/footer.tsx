@@ -5,7 +5,10 @@ import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiFillMediumCircle} from 'react-icons/ai'
 import {AiFillYoutube} from 'react-icons/ai'
 import {AiFillInstagram} from 'react-icons/ai'
+import { SiTelegram } from "react-icons/si";
 import {AiFillLinkedin} from 'react-icons/ai'
+import { FaDiscord } from "react-icons/fa";
+
 
 export default function footer() {
   return (
@@ -21,6 +24,8 @@ export default function footer() {
           <a href="https://www.instagram.com/dextr_exchange" target="_blank" rel="noopener noreferrer"><AiFillInstagram fontSize={34} className="hover:text-cyan-300" /></a>
           <a href="https://medium.com/@dextr-ex" target="_blank" rel="noopener noreferrer"><AiFillMediumCircle fontSize={34} className="hover:text-cyan-300" /></a>
           <a href="https://www.linkedin.com/company/dextr-exchange/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin fontSize={34} className="hover:text-cyan-300" /></a>
+          <a href="https://t.me/DextrExchange" target="_blank" rel="noopener noreferrer"><SiTelegram fontSize={34} className="hover:text-cyan-300" /></a>
+          <a href="https://discord.gg/FhmZcsQu" target="_blank" rel="noopener noreferrer"><FaDiscord fontSize={34} className="hover:text-cyan-300" /></a>
         </div>
       </div>
       <div className='flex xl:px-20 justify-between xl:py-20 px-3 py-12 flex-col xl:flex-row'>

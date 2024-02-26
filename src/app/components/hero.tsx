@@ -9,7 +9,7 @@ export default function hero() {
 
   
   return (
-    <section className='min-h-screen mt-12'>
+    <section className='min-h-screen mt-10'>
       <div className='flex justify-center lg:flex-row flex-col px-3 lg:px-20 gap-10 pt-12 lg:pt-15'>
       <div className='lg:basis-1/2 flex flex-col justify-center lg:gap-12 gap-5'>
         <div>

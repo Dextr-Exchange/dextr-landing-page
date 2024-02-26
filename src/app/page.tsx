@@ -6,7 +6,7 @@ import Features from "./components/features"
 import Difference from "./components/difference"
 import FAQs from "./components/faqs"
 import Footer from "./components/footer"
-
+import Blogs from "./components/blogs"
 
 export default function Home() {
   return (
@@ -20,6 +20,7 @@ export default function Home() {
       <Laptop />
       <Features />
       <Difference />
+      {/* <Blogs /> */}
       {/* <FAQs /> */}
       <Footer />
     </div>
