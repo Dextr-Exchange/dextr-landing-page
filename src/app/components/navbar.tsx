@@ -13,7 +13,8 @@ export default function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className="flex flex-col justify-between w-full bg-[#0c0c14] bg-opacity-40 pb-3">
+    // Add a pb-3 after removal of banner code
+    <nav className="flex flex-col justify-between w-full bg-[#0c0c14] bg-opacity-40">
       <div className='font-primary flex justify-between pt-2 px-1 w-full xl:pt-5 xl:px-12'>
       <div className='flex gap-32 '>
         <Image src={Logo} alt="Dextr Logo" width={150} height={100} />
@@ -29,7 +30,7 @@ export default function Navbar() {
         </a>
       </div>
     </div>
-      <div className="flex relative">
+      <div className="flex relative mb-3">
       {!toggleMenu && (
           <HiMenuAlt4 fontSize={28} className="text-white xl:hidden cursor-pointer h-full pt-3" onClick={() => setToggleMenu(true)} />
         )}
@@ -52,7 +53,7 @@ export default function Navbar() {
 
       {/* TEMP BANNER CODE BELOW  */}
 
-      <a className="mt-3 flex banner h-8 w-full justify-center items-center cursor-pointer font-bold ease-in-out duration-500 hover:scale-105" href='https://rewards.taskon.xyz/campaign/detail/35032' target='_blank'>
+      <a className="bg-[#01C3F1] py-3 flex banner h-8 w-full justify-center items-center cursor-pointer font-bold ease-in-out duration-500 hover:scale-105" href='https://rewards.taskon.xyz/campaign/detail/35032' target='_blank'>
         Live 🔥 : Claim Your Rewards Now! <FaArrowCircleRight className='ml-3'/>
       </a>
     </nav>
