@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Image from "next/image";
 import c from "./blogs.module.css";
-import ToText from "../utils/ToText";
+import ToText from "../utils/toText.js";
 
 const Blog = () => {
     const [posts, setPosts] = useState([]);
