@@ -2,7 +2,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import Script from 'next/script'
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 
 export const metadata: Metadata = {
@@ -22,6 +22,7 @@ export default function RootLayout({
       <Script src="https://cdn.pagesense.io/js/brainchain/f56e5f0b854a40d4a059d58ef7165b61.js"></Script>
       </head>
       <body>{children}</body>
+      <GoogleAnalytics gaId="G-H83B715197" />
     </html>
   )
 }

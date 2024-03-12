@@ -25,31 +25,31 @@ const Blog = () => {
     }, []);
 
     return (
-        <div className="pb-12 xl:py-28 px-20">
+        <div className="pb-12 xl:py-28 px-20 flex flex-col">
           <div className='text-center flex justify-center mx-3 mb-10 xl:mx-20 flex-col gap-3'>
             <h1 className='text-3xl xl:text-6xl font-primary font-bold'>Blogs</h1>
           </div>
-          <div className="flex w-full overflow-x-scroll overflow-y-hidden">
+          <div id="blogs-scroll" className="flex w-full">
           {
             posts && posts?.map((item) => {
               return(
-                <div key={item} className="mx-3 my-4 max-w-sm min-w-[300px] h-[320px] border-[#01C3F1] rounded-lg shadow bg-gray-900 dark:bg-gray-900">
+                <a href={item?.link} key={item} className=" hover:bg-opacity-50 hover:z-30 mx-3 my-4 max-w-sm min-w-[300px] h-[320px] border-[#01C3F1] rounded-lg shadow bg-gray-900 dark:bg-gray-900">
                   <div className="p-5">
                       <a href={item?.link} className="">
-                          <h5 className="text-ellipsis mb-2 h-[80px] text-lg font-bold tracking-tight text-white dark:text-white">{item?.title.substring(0, 100)}</h5>
+                          <h5 className="text-ellipsis mb-2 h-[100px] text-lg font-bold tracking-tight text-white dark:text-white">{item?.title.substring(0, 100)}</h5>
                       </a>
-                      <p className="text-ellipsis overflow-hidden max-h-32 font-normal text-[#5a6169]">{`${ToText(
+                      <p className="text-ellipsis overflow-hidden max-h-40 font-normal text-[#5a6169]">{`${ToText(
                         item.content.substring(0, 1000)
                       )}...`}</p>
                       <br />                      
-                      <a href={item?.link} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      {/* <a href={item?.link} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                           Read more
                           <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                           </svg>
-                      </a>
+                      </a> */}
                   </div>
-                </div>
+                </a>
 
 
                 // <div key={item} className={`col-md-4 col-sm-6 col-xs-12 w-[450px] min-w-[300px] h-max ${c.grid}`}>
@@ -134,7 +134,12 @@ const Blog = () => {
           })}
           
           </div>
-
+          <a href="https://dextr-ex.medium.com/" target='_blank' className="bg-[#01C3F1] xl:self-end xl:w-fit mt-10 text-black focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-right inline-flex items-center w-3/5 self-center">
+            Go to blogs
+            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+          </a>
         </div>
     );
   };

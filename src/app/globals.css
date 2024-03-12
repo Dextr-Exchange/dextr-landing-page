@@ -122,3 +122,17 @@
     height: 100%;
     width: 100%;
   }
+
+#blogs-scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#blogs-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+#blogs-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
