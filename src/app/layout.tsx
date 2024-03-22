@@ -7,7 +7,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: 'Dextr Exchange',
-  description: 'A web3 protocol that enables peer-to-peer exchange of digital assets using Account Abstraction and SBTs.',
+  description: "Tired of Low Returns and High Slippage? Discover Dextr: Maximize your earnings and minimize risk with Dextr's unique reputation-based AMM- take charge of your crypto journey today!",
 }
 
 export default function RootLayout({
