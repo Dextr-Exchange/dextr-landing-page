@@ -53,8 +53,8 @@ export default function Navbar() {
 
       {/* TEMP BANNER CODE BELOW  */}
 
-      <a className="bg-[#01C3F1] py-3 flex banner h-8 w-full justify-center items-center cursor-pointer font-bold ease-in-out duration-500 hover:scale-105" href='https://rewards.taskon.xyz/campaign/detail/35032' target='_blank'>
-        Live 🔥 : Claim Your Rewards Now! <FaArrowCircleRight className='ml-3'/>
+      <a className="bg-[#01C3F1] py-3 px-2 flex banner h-8 w-full justify-center items-center cursor-pointer font-bold ease-in-out duration-500 hover:scale-105" href='https://twitter.com/Dextr_Exchange/status/1772980594705621318?t=Pw77powQ1MDvOLPo3lWnKA&s=19' target='_blank'>
+        Applications Live 🔥 : Dextr Genius Guild! <FaArrowCircleRight className='ml-3'/>
       </a>
     </nav>
   );

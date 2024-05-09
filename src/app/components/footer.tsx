@@ -17,7 +17,7 @@ export default function footer() {
         <div>          
             <h1 className='font-primary text-center font-bold text-white text-4xl xl:text-7xl'>Stay In Touch With Us</h1>
         </div>
-        <div className='flex gap-12 pt-5'>
+        <div className='flex gap-12 pt-5 flex-wrap items-center justify-center'>
           {/* icons */}
           <a href="https://twitter.com/Dextr_Exchange" target="_blank" rel="noopener noreferrer"><AiOutlineTwitter fontSize={34} className="hover:text-cyan-300" /></a>          
           <a href="https://www.youtube.com/@Dextr_exchange" target="_blank" rel="noopener noreferrer"><AiFillYoutube fontSize={34} className="hover:text-cyan-300" /></a>

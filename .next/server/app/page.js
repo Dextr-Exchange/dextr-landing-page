@@ -389,12 +389,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 8531:
+/***/ 5195:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7734, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2698, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8709, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2698, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7833, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9150, 23))
 
@@ -561,11 +561,11 @@ function Navbar() {
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                className: "bg-[#01C3F1] py-3 flex banner h-8 w-full justify-center items-center cursor-pointer font-bold ease-in-out duration-500 hover:scale-105",
-                href: "https://rewards.taskon.xyz/campaign/detail/35032",
+                className: "bg-[#01C3F1] py-3 px-2 flex banner h-8 w-full justify-center items-center cursor-pointer font-bold ease-in-out duration-500 hover:scale-105",
+                href: "https://twitter.com/Dextr_Exchange/status/1772980594705621318?t=Pw77powQ1MDvOLPo3lWnKA&s=19",
                 target: "_blank",
                 children: [
-                    "Live \uD83D\uDD25 : Claim Your Rewards Now! ",
+                    "Applications Live \uD83D\uDD25 : Dextr Genius Guild! ",
                     /*#__PURE__*/ jsx_runtime_.jsx(fa_index_esm/* FaArrowCircleRight */.Wgy, {
                         className: "ml-3"
                     })
@@ -1035,7 +1035,7 @@ function footer() {
                         })
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "flex gap-12 pt-5",
+                        className: "flex gap-12 pt-5 flex-wrap items-center justify-center",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                 href: "https://twitter.com/Dextr_Exchange",
