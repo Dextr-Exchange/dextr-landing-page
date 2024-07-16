@@ -33,7 +33,7 @@ const Blog = () => {
           {
             posts && posts?.map((item) => {
               return(
-                <a href={item?.link} key={item} className=" hover:bg-opacity-50 hover:z-30 mx-3 my-4 max-w-sm min-w-[300px] h-[320px] border-[#01C3F1] rounded-lg shadow bg-gray-900 dark:bg-gray-900">
+                <a href={item?.link} target="_blank" key={item} className=" hover:bg-opacity-50 hover:z-30 mx-3 my-4 max-w-sm min-w-[300px] h-[320px] border-[#01C3F1] rounded-lg shadow bg-gray-900 dark:bg-gray-900">
                   <div className="p-5">
                       <a href={item?.link} className="">
                           <h5 className="text-ellipsis mb-2 h-[100px] text-lg font-bold tracking-tight text-white dark:text-white">{item?.title.substring(0, 100)}</h5>
