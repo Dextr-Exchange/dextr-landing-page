@@ -13,11 +13,13 @@ const Testnet = () => {
                 <p className="mt-5 text-sm text-gray-400 font-light">
                     Participate in the Dextr Test-net Beta and win from a pool of $25,000 DXTR. Climb up the ladder and increase your REP Scores for more rewards.  
                 </p>
-                <button
+                <a
+                    href="https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=twitter&utm_medium=Zoho+SocialmG"
+                    target="_blank"
                     className="bg-teal-500 text-black px-6 py-3 rounded-full mt-5"
                 >
                     Join Waitlist
-                </button>
+                </a>
             </div>
             <div className="basis-1/2">
                 <div className="h-auto w-auto pt-8 px-4 bg-radial-gradient-imageBack">

@@ -30,22 +30,26 @@ const HeroElement = () => {
           Dextr offers unparalleled flexibility in trading and liquidity provisioning, empowering you to maximize profits and minimize risks with every transaction.
         </motion.p>
         <div className='flex gap-5'>
-          <motion.button
+          <motion.a
             className="bg-teal-500 text-black px-6 py-3 rounded-full"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 1 }}
+            href="https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=twitter&utm_medium=Zoho+SocialmG"
+            target="_blank"
           >
             Join Waitlist
-          </motion.button>
-          <motion.button
+          </motion.a>
+          <motion.a
             className="bg-primary text-white px-6 py-3 rounded-full"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 1 }}
+            href="https://dextr-protocol.gitbook.io/dextr-mcamm-whitepaper-v3.0/"
+            target="_blank"
           >
             See Whitepaper
-          </motion.button>
+          </motion.a>
         </div>
         
       </div>

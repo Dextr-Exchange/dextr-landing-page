@@ -626,7 +626,7 @@ const HeroElement = ()=>{
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "flex gap-5",
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.button, {
+                            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.a, {
                                 className: "bg-teal-500 text-black px-6 py-3 rounded-full",
                                 initial: {
                                     opacity: 0,
@@ -640,9 +640,11 @@ const HeroElement = ()=>{
                                     duration: 0.5,
                                     delay: 1
                                 },
+                                href: "https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=twitter&utm_medium=Zoho+SocialmG",
+                                target: "_blank",
                                 children: "Join Waitlist"
                             }),
-                            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.button, {
+                            /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.a, {
                                 className: "bg-primary text-white px-6 py-3 rounded-full",
                                 initial: {
                                     opacity: 0,
@@ -656,6 +658,8 @@ const HeroElement = ()=>{
                                     duration: 0.5,
                                     delay: 1
                                 },
+                                href: "https://dextr-protocol.gitbook.io/dextr-mcamm-whitepaper-v3.0/",
+                                target: "_blank",
                                 children: "See Whitepaper"
                             })
                         ]
@@ -1222,28 +1226,6 @@ function ToText(node) {
 
 
 
-const tweets = [
-    {
-        username: "DA BULL",
-        handle: "@DigiAssetsBull",
-        content: "#Cryptotarders, did you know that @CarbonDeFixyz by Bancor offers UNIQUE TRADING PAIRS on-chain? Perfect for #trading #altcoins for more #WBTC! Example: On Coinmarketcap there is no exchange showing an AGIX/WBTC trading pair. Carbon's arb-bot fixes this for you in the back-end."
-    },
-    {
-        username: "WOO",
-        handle: "@WOO_ecosystem",
-        content: "Working with @MBRichardson87 and the Carbon simulator was a pleasure, and we look forward to working together more in the future."
-    },
-    {
-        username: "0xR=ptar.eth",
-        handle: "@reptar258",
-        content: "My @CarbonDeFixyz strat boon working like a charm, btw"
-    },
-    {
-        username: "lewi",
-        handle: "@lowifree",
-        content: "Got an alert about a long forgotten @CarbonDeFixyz position being hit. No matter how new or illiquid the coin, carbon lets you set complex limit orders"
-    }
-];
 const Blogs = ()=>{
     const [posts, setPosts] = (0,react_.useState)([]);
     const scrollContainerRef = (0,react_.useRef)(null);
@@ -1348,7 +1330,9 @@ const Testnet = ()=>{
                         className: "mt-5 text-sm text-gray-400 font-light",
                         children: "Participate in the Dextr Test-net Beta and win from a pool of $25,000 DXTR. Climb up the ladder and increase your REP Scores for more rewards."
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        href: "https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=twitter&utm_medium=Zoho+SocialmG",
+                        target: "_blank",
                         className: "bg-teal-500 text-black px-6 py-3 rounded-full mt-5",
                         children: "Join Waitlist"
                     })

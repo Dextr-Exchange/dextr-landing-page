@@ -4,29 +4,6 @@ import './index.css';
 import axios from 'axios';
 import ToText from '@/app/utils/toText';
 
-const tweets = [
-  {
-    username: 'DA BULL',
-    handle: '@DigiAssetsBull',
-    content: '#Cryptotarders, did you know that @CarbonDeFixyz by Bancor offers UNIQUE TRADING PAIRS on-chain? Perfect for #trading #altcoins for more #WBTC! Example: On Coinmarketcap there is no exchange showing an AGIX/WBTC trading pair. Carbon\'s arb-bot fixes this for you in the back-end.',
-  },
-  {
-    username: 'WOO',
-    handle: '@WOO_ecosystem',
-    content: 'Working with @MBRichardson87 and the Carbon simulator was a pleasure, and we look forward to working together more in the future.',
-  },
-  {
-    username: '0xR=ptar.eth',
-    handle: '@reptar258',
-    content: 'My @CarbonDeFixyz strat boon working like a charm, btw',
-  },
-  {
-    username: 'lewi',
-    handle: '@lowifree',
-    content: 'Got an alert about a long forgotten @CarbonDeFixyz position being hit. No matter how new or illiquid the coin, carbon lets you set complex limit orders',
-  },
-];
-
 const Blogs = () => {
   const [posts, setPosts] = useState([]);
   const scrollContainerRef = useRef(null);
