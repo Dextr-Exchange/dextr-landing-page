@@ -3,27 +3,21 @@ import { FaCheck, FaTimes } from 'react-icons/fa';
 
 const data = [
   {
-    feature: 'MEV Sandwich Attack Resistant',
-    amm: false,
-    orderBooks: true,
-    carbonDefi: true,
-  },
-  {
-    feature: 'Multi-Order Strategies',
+    feature: 'Dual or Single Sided Provision',
     amm: false,
     orderBooks: false,
     carbonDefi: true,
   },
   {
-    feature: 'Native Limit Orders',
+    feature: 'Multi-Market Revolving Liquidity',
     amm: false,
-    orderBooks: true,
+    orderBooks: false,
     carbonDefi: true,
   },
   {
-    feature: 'Native Range Orders',
+    feature: 'Conditional Market Making',
     amm: false,
-    orderBooks: false,
+    orderBooks: true,
     carbonDefi: true,
   },
   {
@@ -33,39 +27,51 @@ const data = [
     carbonDefi: true,
   },
   {
-    feature: 'Rotating Liquidity',
+    feature: 'Economic Guarantee against MEV Exploits',
     amm: false,
     orderBooks: false,
     carbonDefi: true,
   },
   {
-    feature: 'Dual or Single-Sided Provision',
+    feature: 'Price Feed Source Selection',
     amm: false,
     orderBooks: false,
     carbonDefi: true,
   },
   {
-    feature: 'Irreversible Orders',
+    feature: 'Rank based Priority',
     amm: false,
     orderBooks: false,
     carbonDefi: true,
   },
   {
-    feature: 'Adjustable Order Conditions',
+    feature: 'Universal Hooks',
     amm: false,
     orderBooks: false,
     carbonDefi: true,
   },
   {
-    feature: 'Pair Any ERC-20 Tokens',
+    feature: 'Dynamic LP Fee Discount',
     amm: false,
     orderBooks: false,
     carbonDefi: true,
   },
   {
-    feature: 'Onchain',
+    feature: 'Order Flow Identification',
     amm: false,
-    orderBooks: true,
+    orderBooks: false,
+    carbonDefi: true,
+  },
+  {
+    feature: 'Reputation Based Rewards',
+    amm: false,
+    orderBooks: false,
+    carbonDefi: true,
+  },
+  {
+    feature: 'AI Agents',
+    amm: false,
+    orderBooks: false,
     carbonDefi: true,
   },
 ];

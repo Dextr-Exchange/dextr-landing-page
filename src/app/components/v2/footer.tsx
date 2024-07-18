@@ -20,12 +20,12 @@ export default function footer() {
         <div className='flex gap-12 pt-5 flex-wrap items-center justify-center text-[#ffffffcb]'>
           {/* icons */}
           <a href="https://twitter.com/Dextr_Exchange" target="_blank" rel="noopener noreferrer"><AiOutlineTwitter fontSize={34} className="hover:text-cyan-300" /></a>          
-          <a href="https://www.youtube.com/@Dextr_exchange" target="_blank" rel="noopener noreferrer"><AiFillYoutube fontSize={34} className="hover:text-cyan-300" /></a>
+          {/* <a href="https://www.youtube.com/@Dextr_exchange" target="_blank" rel="noopener noreferrer"><AiFillYoutube fontSize={34} className="hover:text-cyan-300" /></a> */}
           <a href="https://www.instagram.com/dextr_exchange" target="_blank" rel="noopener noreferrer"><AiFillInstagram fontSize={34} className="hover:text-cyan-300" /></a>
           <a href="https://medium.com/@dextr-ex" target="_blank" rel="noopener noreferrer"><AiFillMediumCircle fontSize={34} className="hover:text-cyan-300" /></a>
           <a href="https://www.linkedin.com/company/dextr-exchange/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin fontSize={34} className="hover:text-cyan-300" /></a>
           <a href="https://t.me/DextrExchange" target="_blank" rel="noopener noreferrer"><SiTelegram fontSize={34} className="hover:text-cyan-300" /></a>
-          <a href="https://discord.gg/6BjkQv2cmQ" target="_blank" rel="noopener noreferrer"><FaDiscord fontSize={34} className="hover:text-cyan-300" /></a>
+          {/* <a href="https://discord.gg/6BjkQv2cmQ" target="_blank" rel="noopener noreferrer"><FaDiscord fontSize={34} className="hover:text-cyan-300" /></a> */}
           <Image src={DextrLogo} alt="Logo Image" className='hidden' height={10} width={10} />
         </div>
       </div>
