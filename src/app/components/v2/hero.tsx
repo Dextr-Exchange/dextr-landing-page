@@ -56,7 +56,7 @@ const HeroElement = () => {
 
       <div className='flex basis-2/3 items-center justify-center flex-grow max-lg:basis-full max-lg:mr-5'>
         <video className='w-3/4 rounded-xl' playsInline autoPlay muted controls loop preload="none">
-          <source src="/video/DextrLanding.mp4" type="video/mp4" />
+          <source src="/video/HeroVideo2.mp4" type="video/mp4" />
           <track
             src="/path/to/captions.vtt"
             kind="subtitles"
