@@ -3,9 +3,15 @@ import { FaCheck, FaTimes } from 'react-icons/fa';
 
 const data = [
   {
-    feature: 'Dual or Single Sided Provision',
-    amm: false,
+    feature: 'Dual Sided Liquidity Provision',
+    amm: true,
     orderBooks: false,
+    carbonDefi: true,
+  },
+  {
+    feature: 'Single Sided Liquidity Provision',
+    amm: false,
+    orderBooks: true,
     carbonDefi: true,
   },
   {
@@ -22,7 +28,7 @@ const data = [
   },
   {
     feature: 'Custom Fee Tiers',
-    amm: false,
+    amm: true,
     orderBooks: false,
     carbonDefi: true,
   },
@@ -88,7 +94,7 @@ const ComparisonTable = () => {
             <thead>
               <tr className=''>
                 <th className="px-6 py-3 border-b text-gray-500 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide"></th>
-                <th className="px-6 py-3 border-b text-gray-500 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide">CFMM</th>
+                <th className="px-6 py-3 border-b text-gray-500 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide">CF-AMM</th>
                 <th className="px-6 py-3 border-b text-gray-500 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide">ORDER <br /> BOOKS</th>
                 <th className="px-6 py-3 border-b text-gray-300 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide">DEXTR</th>
               </tr>

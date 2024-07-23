@@ -32,7 +32,7 @@ const v2 = () => {
           </div>
           <div className="w-full bg-radial-gradient-component">
             <Blogs />
-            <Subscribe />
+            {/* <Subscribe /> */}
             <Footer />
           </div>
         </div>

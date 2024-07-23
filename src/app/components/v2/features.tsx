@@ -4,23 +4,23 @@ import { MdCancelPresentation } from "react-icons/md";
 
 const features = [
   {
-    title: 'Multi-Market One Cancels Other',
+    title: '1. Liquidity Abstraction',
     description: 'Use my 1 ETH to Buy BTC if it reaches $60,000 or Buy Solana if it reaches $80!',
     icon: FaExchangeAlt,
   },
   {
-    title: 'Dynamic Liquidity Allocation',
+    title: '2. Single Sided Liquidity Positions',
     description: 'Use my 1 ETH to provide liquidity in ETH/USDC, ETH/BTC and BTC/USDT pairs.',
     icon: FaChartLine,
   },
   {
-    title: 'Price Source Selection',
-    description: 'Use my liquidity based on the global price average.',
+    title: '3. Price Source Selection',
+    description: 'Use my liquidity based on the Global Average price feeds from Oracle or CEX Prices.',
     icon: FaDollarSign,
   },
   {
-    title: 'Dynamic Fees Adjustments',
-    description: 'Offer more discount on my LP Fee when markets are stable.',
+    title: '4. Strategy Adapters',
+    description: 'Execute my strategies using interoperable smart contract connectors within Dextr or external DEXs. (Hooks).',
     icon: FaAdjust,
   },
 ];

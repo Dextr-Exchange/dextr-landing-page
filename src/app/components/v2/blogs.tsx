@@ -42,7 +42,12 @@ const Blogs = () => {
         <h2 className="text-6xl max-md:text-4xl max-sm:text-3xl font-primary font-extrabold text-center mb-4">Ready to start trading?</h2>
         <p className="text-center text-lg text-gray-300 mb-8">Join the test-net BETA and start creating your markets.*</p>
         <div className="flex justify-center mb-8">
-          <a href='https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=landing' rel='noopener noreferrer' target='_blank' className="flex items-center gap-1 bg-teal-500 text-black px-6 py-3 rounded-full">
+          <a 
+            href='https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=landing' 
+            rel='noopener noreferrer' 
+            target='_blank' 
+            className="flex items-center gap-1 bg-neutral-300 text-black px-6 py-3 rounded-full"
+          >
             Join Waitlist
             <MdOutlineExpandMore className="text-xl" />
           </a>
