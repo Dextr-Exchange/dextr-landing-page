@@ -53,7 +53,7 @@ const HeroElement = () => {
         </div>
         
       </div>
-      <div className='flex basis-2/5 items-center justify-center flex-grow max-lg:basis-full max-lg:mx-5'>
+      <div className='flex basis-1/2 items-center justify-center flex-grow max-lg:basis-full max-lg:mx-5'>
         {/* <div className='px-10'> */}
 
         <motion.video 
