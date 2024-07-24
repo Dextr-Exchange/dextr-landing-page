@@ -32,7 +32,7 @@ export default function footer() {
       <div className='flex xl:px-20 justify-between xl:py-20 px-3 py-12 flex-col xl:flex-row'>
         <div className='flex flex-col justify-center xl:justify-start'>
           <div className='flex justify-center xl:justify-start'><Image src={Logo} alt="Dextr Logo" width={150} height={100} /></div>
-          <p className='xl:w-1/3 text-[#ffffffcb] font-secondary text-center xl:text-left font-normal mt-5' >Dextr is a hybrid DEX featuring on-chain order books, reputation-based AMM, and seamless cross-chain interoperability.</p>
+          <p className='xl:w-1/3 text-[#ffffffcb] font-secondary text-center xl:text-left font-normal mt-5' >Dextr is an MEV-capturing AMM with economic guarantees, maximizing capital efficiency and minimizing risks for traders and liquidity providers.</p>
         </div>
         <div className='flex flex-col font-bold font-primary pt-8 xl:pt-0 gap-3 text-center xl:text-right text-[#ffffffcb]'>
           <a href="https://dextr-protocol.gitbook.io/dextr-mcamm-whitepaper-v3.0/" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300">Whitepaper</a>

@@ -27,7 +27,7 @@ const features = [
 
 const Features = () => {
   return (
-    <div className="flex flex-col items-center justify-center mx-10 p-6 pb-20">
+    <div id="features" className="flex flex-col items-center justify-center mx-10 p-6 pb-20">
       <div className='w-full mb-5 font-primary'>
         <h2 className="text-4xl font-bold text-white mb-4">
           One-Stop Strategy Execution.
@@ -47,7 +47,7 @@ const Features = () => {
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
             {/* <Image height={40} width={40} src={feature.icon} alt={feature.title} className="h-12 w-12 mr-4" /> */}
-            <feature.icon className="h-12 w-12 mr-4 text-white" />
+            <feature.icon className="h-8 w-8 mr-4 text-white" />
             <div>
               <h3 className="text-2xl font-semibold text-white">{feature.title}</h3>
               <p className="text-sm text-gray-400 mt-2 font-light">{feature.description}</p>

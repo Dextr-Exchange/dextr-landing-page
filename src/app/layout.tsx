@@ -21,7 +21,7 @@ export default function RootLayout({
       <link rel="icon" type="image/svg+xml" href="/companylogo.svg" />
       <Script src="https://cdn.pagesense.io/js/brainchain/f56e5f0b854a40d4a059d58ef7165b61.js"></Script>
       </head>
-      <body>{children}</body>
+      <body className='scroll-smooth'>{children}</body>
       <GoogleAnalytics gaId="G-H83B715197" />
     </html>
   )

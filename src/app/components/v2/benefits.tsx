@@ -45,7 +45,7 @@ const Benefits = () => {
             >
               {/* Applying the gradient to the icons */}
               <benefit.icon 
-                className="w-12 h-12 mb-4 text-white" 
+                className="w-8 h-8 mb-4 text-white" 
                 style={{ 
                   background: 'radial-gradient(circle at 50% -5%, #1D428A 20%, #000 50%)', 
                   WebkitMaskImage: '-webkit-linear-gradient(white, white)',

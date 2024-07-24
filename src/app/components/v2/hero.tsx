@@ -11,7 +11,7 @@ const HeroElement = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Capture <span className="bg-clip-text text-transparent bg-profit-gradient">Profits</span>
+          Conquer <span className="bg-clip-text text-transparent bg-loss-gradient">Losses</span>
         </motion.h2>
         <motion.h2
           className="text-5xl font-semibold text-white mb-4"
@@ -19,7 +19,7 @@ const HeroElement = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Conquer <span className="bg-clip-text text-transparent bg-loss-gradient">Losses</span>
+          Capture <span className="bg-clip-text text-transparent bg-profit-gradient">Profits</span>
         </motion.h2>
         <motion.p
           className="text-lg mt-3 font-secondary text-gray-300 font-light tracking-wide mb-8"

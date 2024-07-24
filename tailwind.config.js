@@ -25,8 +25,9 @@ module.exports = {
         'loss-gradient': 'linear-gradient(to right, #F87171, #EF4444, #B91C1C)', // Adjusted red gradient with more contrast
       },
       fontFamily: {
-        primary: ['Syne', 'sans-serif'],
-        secondary: ['Inter', 'sans-serif']
+        // primary: ['Syne', 'sans-serif'],
+        primary: ['Manrope', 'serif'],
+        secondary: ['Manrope', 'serif']
       },
       colors: {
         primary: '#1e3a8a',

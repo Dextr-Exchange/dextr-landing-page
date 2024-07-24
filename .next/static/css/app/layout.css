@@ -524,6 +524,9 @@ video {
 .m-2{
   margin: 0.5rem;
 }
+.m-5{
+  margin: 1.25rem;
+}
 .mx-10{
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -715,6 +718,9 @@ video {
 .w-full{
   width: 100%;
 }
+.w-8{
+  width: 2rem;
+}
 .min-w-\[300px\]{
   min-width: 300px;
 }
@@ -735,12 +741,6 @@ video {
 }
 .basis-1\/3{
   flex-basis: 33.333333%;
-}
-.basis-2\/5{
-  flex-basis: 40%;
-}
-.basis-2\/3{
-  flex-basis: 66.666667%;
 }
 .-translate-y-6{
   --tw-translate-y: -1.5rem;
@@ -875,6 +875,9 @@ video {
 }
 .overflow-x-hidden{
   overflow-x: hidden;
+}
+.scroll-smooth{
+  scroll-behavior: smooth;
 }
 .text-ellipsis{
   text-overflow: ellipsis;
@@ -1224,10 +1227,10 @@ video {
   text-align: right;
 }
 .font-primary{
-  font-family: Syne, sans-serif;
+  font-family: Manrope, serif;
 }
 .font-secondary{
-  font-family: Inter, sans-serif;
+  font-family: Manrope, serif;
 }
 .text-2xl{
   font-size: 1.5rem;
