@@ -32,7 +32,7 @@ const features = [
 
 const Features = () => {
   return (
-    <div id="features" className="flex flex-col items-center justify-center mx-10 p-6 pb-20 max-md:mt-10">
+    <div id="features" className="flex flex-col items-center justify-center mx-10 p-6 pb-20 max-md:mt-10 max-md:px-2 max-md:py-6">
       <div className='w-full mb-5 font-primary'>
         <h2 className="lg:text-5xl md:text-3xl text-2xl text-white mb-4">
           One-Stop Strategy Execution !
@@ -60,8 +60,8 @@ const Features = () => {
               className="h-11 w-11 mx-4 text-white" 
             />
             <div>
-              <h3 className="text-2xl font-semibold text-white">{feature.title}</h3>
-              <p className="text-sm text-gray-400 mt-1 font-light">{feature.description}</p>
+              <h3 className="text-2xl max-md:text-xl font-semibold text-white">{feature.title}</h3>
+              <p className="text-sm max-md:text-xs text-gray-400 mt-1 font-light">{feature.description}</p>
             </div>
           </motion.div>
         ))}

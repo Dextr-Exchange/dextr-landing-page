@@ -8,7 +8,7 @@ const HeroElement = () => {
     <div className='flex max-lg:flex-col-reverse w-full lg:h-screen-minus-150 lg:mx-10'>
       <div className="flex basis-1/3 flex-col justify-center flex-grow p-6 font-primary max-lg:basis-full max-lg:mx-5">
         <motion.h2
-          className="xl:text-6xl text-5xl font-semibold text-white mb-4"
+          className="xl:text-6xl text-5xl max-md:text-4xl font-semibold text-white mb-4"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -16,7 +16,7 @@ const HeroElement = () => {
           Conquer <span className="bg-clip-text text-transparent bg-loss-gradient">Losses</span>
         </motion.h2>
         <motion.h2
-          className="xl:text-6xl text-5xl font-semibold text-white mb-4"
+          className="xl:text-6xl text-5xl max-md:text-4xl font-semibold text-white mb-4"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -33,7 +33,7 @@ const HeroElement = () => {
         </motion.p>
         <div className='flex gap-5'>
           <motion.a
-            className="bg-neutral-300 text-black px-6 py-3 rounded-full"
+            className="bg-neutral-300 text-black px-6 py-3 rounded-full max-md:text-sm"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 1 }}
@@ -43,7 +43,7 @@ const HeroElement = () => {
             Join Waitlist
           </motion.a>
           <motion.a
-            className="bg-primary text-white px-6 py-3 rounded-full"
+            className="bg-primary text-white px-6 py-3 rounded-full max-md:text-sm"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 1 }}

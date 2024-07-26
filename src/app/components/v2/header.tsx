@@ -13,7 +13,7 @@ const Header = () => {
     return (
     <div>
         <motion.a 
-            className="bg-black text-gray-100 py-3 px-2 flex banner h-8 w-full justify-center items-center cursor-pointer font-semibold ease-in-out duration-500 hover:scale-105" 
+            className="bg-black text-gray-100 py-3 px-2 flex banner h-8 w-full justify-center items-center cursor-pointer font-semibold ease-in-out duration-500 hover:scale-105 max-sm:text-xs" 
             href='https://twitter.com/Dextr_Exchange/status/1772980594705621318?t=Pw77powQ1MDvOLPo3lWnKA&s=19' 
             target='_blank'
             initial={{ opacity: 0, y: -50 }}
@@ -21,16 +21,16 @@ const Header = () => {
             transition={{ duration: 0.5 }}
         >
             Applications Live 🔥 : Dextr Genius Guild! 
-            <button className="rounded-lg flex items-center gap-2 text-sm ml-5 bg-[#b12a29] p-2">Apply Now <FaArrowCircleRight /></button>
+            <button className="rounded-lg flex items-center gap-2 text-sm ml-5 bg-[#b12a29] p-2 max-sm:text-[8px]">Apply Now <FaArrowCircleRight /></button>
             {/* <FaArrowCircleRight className='ml-3'/> */}
         </motion.a>
         <motion.header 
-            className="flex justify-between items-center py-6 px-12"
+            className="flex justify-between items-center py-6 px-12 max-sm:px-6"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
         >
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 max-sm:space-x-0">
                 <Image src={Logo} alt="Dextr Logo" width={150} height={100} />
             </div>
             <nav className='font-primary font-semibold text-gray-100 hidden lg:flex gap-12 justify-center items-center text-sm'>    

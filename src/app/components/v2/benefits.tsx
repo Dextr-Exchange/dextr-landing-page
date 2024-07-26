@@ -63,7 +63,7 @@ const Benefits = () => {
                 }} 
               />
               <h3 className="text-xl w-full font-medium text-gray-50">{benefit.title}</h3>
-              <p className="mt-2 text-sm w-full font-light text-gray-400">{benefit.description}</p>
+              <p className="mt-2 text-sm w-full font-light text-gray-400 max-md:text-xs">{benefit.description}</p>
             </motion.div>
           ))}
         </motion.div>

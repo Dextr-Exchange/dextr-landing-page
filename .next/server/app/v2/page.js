@@ -420,7 +420,7 @@ const Header = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion */.E.a, {
-                className: "bg-black text-gray-100 py-3 px-2 flex banner h-8 w-full justify-center items-center cursor-pointer font-semibold ease-in-out duration-500 hover:scale-105",
+                className: "bg-black text-gray-100 py-3 px-2 flex banner h-8 w-full justify-center items-center cursor-pointer font-semibold ease-in-out duration-500 hover:scale-105 max-sm:text-xs",
                 href: "https://twitter.com/Dextr_Exchange/status/1772980594705621318?t=Pw77powQ1MDvOLPo3lWnKA&s=19",
                 target: "_blank",
                 initial: {
@@ -437,7 +437,7 @@ const Header = ()=>{
                 children: [
                     "Applications Live \uD83D\uDD25 : Dextr Genius Guild!",
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("button", {
-                        className: "rounded-lg flex items-center gap-2 text-sm ml-5 bg-[#b12a29] p-2",
+                        className: "rounded-lg flex items-center gap-2 text-sm ml-5 bg-[#b12a29] p-2 max-sm:text-[8px]",
                         children: [
                             "Apply Now ",
                             /*#__PURE__*/ jsx_runtime_.jsx(fa_index_esm/* FaArrowCircleRight */.Wgy, {})
@@ -446,7 +446,7 @@ const Header = ()=>{
                 ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion */.E.header, {
-                className: "flex justify-between items-center py-6 px-12",
+                className: "flex justify-between items-center py-6 px-12 max-sm:px-6",
                 initial: {
                     opacity: 0,
                     y: -50
@@ -461,7 +461,7 @@ const Header = ()=>{
                 },
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "flex items-center space-x-2",
+                        className: "flex items-center space-x-2 max-sm:space-x-0",
                         children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                             src: companylogo/* default */.Z,
                             alt: "Dextr Logo",
@@ -570,7 +570,7 @@ const HeroElement = ()=>{
                 className: "flex basis-1/3 flex-col justify-center flex-grow p-6 font-primary max-lg:basis-full max-lg:mx-5",
                 children: [
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion */.E.h2, {
-                        className: "xl:text-6xl text-5xl font-semibold text-white mb-4",
+                        className: "xl:text-6xl text-5xl max-md:text-4xl font-semibold text-white mb-4",
                         initial: {
                             opacity: 0,
                             y: -50
@@ -591,7 +591,7 @@ const HeroElement = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)(motion/* motion */.E.h2, {
-                        className: "xl:text-6xl text-5xl font-semibold text-white mb-4",
+                        className: "xl:text-6xl text-5xl max-md:text-4xl font-semibold text-white mb-4",
                         initial: {
                             opacity: 0,
                             y: -50
@@ -631,7 +631,7 @@ const HeroElement = ()=>{
                         className: "flex gap-5",
                         children: [
                             /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.a, {
-                                className: "bg-neutral-300 text-black px-6 py-3 rounded-full",
+                                className: "bg-neutral-300 text-black px-6 py-3 rounded-full max-md:text-sm",
                                 initial: {
                                     opacity: 0,
                                     scale: 0.8
@@ -649,7 +649,7 @@ const HeroElement = ()=>{
                                 children: "Join Waitlist"
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.a, {
-                                className: "bg-primary text-white px-6 py-3 rounded-full",
+                                className: "bg-primary text-white px-6 py-3 rounded-full max-md:text-sm",
                                 initial: {
                                     opacity: 0,
                                     scale: 0.8
@@ -808,7 +808,7 @@ const features = [
 const Features = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         id: "features",
-        className: "flex flex-col items-center justify-center mx-10 p-6 pb-20 max-md:mt-10",
+        className: "flex flex-col items-center justify-center mx-10 p-6 pb-20 max-md:mt-10 max-md:px-2 max-md:py-6",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: "w-full mb-5 font-primary",
@@ -844,11 +844,11 @@ const Features = ()=>{
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                        className: "text-2xl font-semibold text-white",
+                                        className: "text-2xl max-md:text-xl font-semibold text-white",
                                         children: feature.title
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: "text-sm text-gray-400 mt-1 font-light",
+                                        className: "text-sm max-md:text-xs text-gray-400 mt-1 font-light",
                                         children: feature.description
                                     })
                                 ]
@@ -947,7 +947,7 @@ const Benefits = ()=>{
                                     children: benefit.title
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: "mt-2 text-sm w-full font-light text-gray-400",
+                                    className: "mt-2 text-sm w-full font-light text-gray-400 max-md:text-xs",
                                     children: benefit.description
                                 })
                             ]
@@ -1045,9 +1045,9 @@ const data = [
 ];
 const ComparisonTable = ()=>{
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "mx-10 p-6 text-white",
+        className: "lg:mx-10 mx-1 p-6 text-white",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "mx-auto px-4",
+            className: "mx-auto lg:px-4",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                     className: "text-4xl font-primary text-gray-50 sm:text-4xl mb-8",
@@ -1063,14 +1063,14 @@ const ComparisonTable = ()=>{
                                     className: "",
                                     children: [
                                         /*#__PURE__*/ jsx_runtime_.jsx("th", {
-                                            className: "px-6 py-3 border-b text-gray-500 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide"
+                                            className: "px-6 py-3 max-sm:px-2 max-sm:py-2 border-b text-gray-500 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide"
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("th", {
-                                            className: "px-6 py-3 border-b text-gray-500 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide",
+                                            className: "px-6 py-3 max-sm:px-2 max-sm:py-2 border-b text-gray-500 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide",
                                             children: "CF-AMM"
                                         }),
                                         /*#__PURE__*/ (0,jsx_runtime_.jsxs)("th", {
-                                            className: "px-6 py-3 border-b text-gray-500 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide",
+                                            className: "px-6 py-3 max-sm:px-2 max-sm:py-2 border-b text-gray-500 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide",
                                             children: [
                                                 "ORDER ",
                                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
@@ -1078,7 +1078,7 @@ const ComparisonTable = ()=>{
                                             ]
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("th", {
-                                            className: "px-6 py-3 border-b text-gray-300 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide",
+                                            className: "px-6 py-3 max-sm:px-2 max-sm:py-2 border-b text-gray-300 border-gray-700 text-lg font-light capitalize max-md:text-base max-sm:text-sm tracking-wide",
                                             children: "DEXTR"
                                         })
                                     ]
@@ -1088,11 +1088,11 @@ const ComparisonTable = ()=>{
                                 children: data.map((item, index)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("tr", {
                                         children: [
                                             /*#__PURE__*/ jsx_runtime_.jsx("td", {
-                                                className: "px-6 py-4 border-b border-gray-700 max-md:text-sm max-sm:text-xs",
+                                                className: "px-6 py-4 max-sm:px-2 max-sm:py-2 border-b border-gray-700 max-md:text-sm max-sm:text-sm",
                                                 children: item.feature
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("td", {
-                                                className: "px-6 py-4 border-b border-gray-700",
+                                                className: "px-6 py-4 max-sm:px-2 max-sm:py-2 border-b border-gray-700",
                                                 children: item.amm ? /*#__PURE__*/ jsx_runtime_.jsx(fa_index_esm/* FaCheck */.l_A, {
                                                     className: "text-green-500 max-md:text-sm"
                                                 }) : /*#__PURE__*/ jsx_runtime_.jsx(fa_index_esm/* FaTimes */.aHS, {
@@ -1100,7 +1100,7 @@ const ComparisonTable = ()=>{
                                                 })
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("td", {
-                                                className: "px-6 py-4 border-b border-gray-700",
+                                                className: "px-6 py-4 max-sm:px-2 max-sm:py-2 border-b border-gray-700",
                                                 children: item.orderBooks ? /*#__PURE__*/ jsx_runtime_.jsx(fa_index_esm/* FaCheck */.l_A, {
                                                     className: "text-green-500 max-md:text-sm"
                                                 }) : /*#__PURE__*/ jsx_runtime_.jsx(fa_index_esm/* FaTimes */.aHS, {
@@ -1108,7 +1108,7 @@ const ComparisonTable = ()=>{
                                                 })
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("td", {
-                                                className: "px-6 py-4 border-b border-gray-700",
+                                                className: "px-6 py-4 max-sm:px-2 max-sm:py-2 border-b border-gray-700",
                                                 children: item.carbonDefi ? /*#__PURE__*/ jsx_runtime_.jsx(fa_index_esm/* FaCheck */.l_A, {
                                                     className: "text-green-500 max-md:text-sm"
                                                 }) : /*#__PURE__*/ jsx_runtime_.jsx(fa_index_esm/* FaTimes */.aHS, {
@@ -1323,16 +1323,16 @@ const Blogs = ()=>{
         }
     };
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "text-white mt-5 mx-10 p-6",
+        className: "text-white mt-5 md:mx-10 mx-5 md:p-6 p-2",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: "mx-auto px-4",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                    className: "text-6xl max-md:text-4xl max-sm:text-3xl font-primary text-center mb-4",
+                    className: "text-6xl max-md:text-4xl max-sm:text-2xl font-primary text-center mb-4",
                     children: "Ready to start trading?"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                    className: "text-center text-lg text-gray-300 mb-8",
+                    className: "text-center text-lg max-sm:text-base text-gray-300 mb-8",
                     children: "Join the test-net BETA and start creating your markets."
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -1383,7 +1383,7 @@ const Testnet = ()=>{
         className: "flex lg:flex-row flex-col gap-10 items-center justify-center mx-10 p-6 pb-20 mt-4 max-md:text-center",
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "basis-1/2 text-gray-50 w-full px-3 mr-10",
+                className: "basis-1/2 text-gray-50 w-full px-3 lg:mr-10",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                         className: "w-12 h-12 mb-4 text-white max-md:mx-auto",

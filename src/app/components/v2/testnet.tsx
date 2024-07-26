@@ -6,7 +6,7 @@ import GoodIcon from "../../../../public/icons/good.png"
 const Testnet = () => {
     return(
         <div className="flex lg:flex-row flex-col gap-10 items-center justify-center mx-10 p-6 pb-20 mt-4 max-md:text-center">
-            <div className="basis-1/2 text-gray-50 w-full px-3 mr-10">
+            <div className="basis-1/2 text-gray-50 w-full px-3 lg:mr-10">
                 <Image 
                     className="w-12 h-12 mb-4 text-white max-md:mx-auto" 
                     height={48} 
