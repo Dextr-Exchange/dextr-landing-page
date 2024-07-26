@@ -75,13 +75,18 @@ const HeroElement = () => {
           />
           Your browser does not support the video tag.
         </motion.video> */}
-        <Image
-          className='rounded-lg shadow-lg'
-          src={DextrImg}
-          height={400}
-          width={650}
-          alt="HERO IMG"
-        />
+        <motion.div initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, delay: 1 }}>
+          <Image
+            className='rounded-lg shadow-lg'
+            src={DextrImg}
+            height={400}
+            width={650}
+            alt="HERO IMG"
+          />
+        </motion.div>
+        
         {/* </div> */}
         
       </div>

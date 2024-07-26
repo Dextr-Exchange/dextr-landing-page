@@ -672,12 +672,26 @@ const HeroElement = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: "flex basis-1/2 items-center justify-center flex-grow max-lg:basis-full max-lg:mx-5",
-                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    className: "rounded-lg shadow-lg",
-                    src: dextrImg,
-                    height: 400,
-                    width: 650,
-                    alt: "HERO IMG"
+                children: /*#__PURE__*/ jsx_runtime_.jsx(motion/* motion */.E.div, {
+                    initial: {
+                        opacity: 0,
+                        scale: 0.8
+                    },
+                    animate: {
+                        opacity: 1,
+                        scale: 1
+                    },
+                    transition: {
+                        duration: 0.5,
+                        delay: 1
+                    },
+                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        className: "rounded-lg shadow-lg",
+                        src: dextrImg,
+                        height: 400,
+                        width: 650,
+                        alt: "HERO IMG"
+                    })
                 })
             })
         ]
