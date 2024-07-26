@@ -1,26 +1,31 @@
 import { motion } from 'framer-motion';
 import { FaCoins, FaHandshake, FaShieldAlt, FaGasPump } from "react-icons/fa";
+import CashIcon from "../../../../public/icons/cash.png"
+import CubeIcon from "../../../../public/icons/cube.png"
+import EarnIcon from "../../../../public/icons/earn.png"
+import CalculatorIcon from "../../../../public/icons/calculator.png"
+import Image from 'next/image';
 
 const benefits = [
   {
     title: '100% Fee Retention',
     description: 'LPs retain the entire Trading fees without sharing with other LPs.',
-    icon: FaCoins,
+    icon: CashIcon,
   },
   {
     title: '0% Slippage',
     description: 'The price you quotes is what you receive when the trade is executed.',
-    icon: FaHandshake,
+    icon: CubeIcon,
   },
   {
     title: '100% Compensation',
     description: 'Economic guarantee for any losses arising from MEV exploits.',
-    icon: FaShieldAlt,
+    icon: EarnIcon,
   },
   {
     title: '25% Less Gas Consumption',
     description: 'Cost-Effective and affordable Transactions.',
-    icon: FaGasPump,
+    icon: CalculatorIcon,
   },
 ];
 
@@ -28,7 +33,7 @@ const Benefits = () => {
   return (
     <div className="py-12 px-10 p-6 text-white">
       <div className="w-full px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-primary font-extrabold text-gray-50 sm:text-4xl">
+        <h2 className="text-xl font-primary text-gray-50 sm:text-4xl">
           Benefits
         </h2>
         <motion.div
@@ -44,8 +49,12 @@ const Benefits = () => {
               whileHover={{ scale: 1.05 }}
             >
               {/* Applying the gradient to the icons */}
-              <benefit.icon 
-                className="w-8 h-8 mb-4 text-white" 
+              <Image 
+                className="w-10 h-10 mb-4 text-white" 
+                height={40} 
+                width={40} 
+                alt={benefit.title} 
+                src={benefit.icon}
                 style={{ 
                   background: 'radial-gradient(circle at 50% -5%, #1D428A 20%, #000 50%)', 
                   WebkitMaskImage: '-webkit-linear-gradient(white, white)',

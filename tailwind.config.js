@@ -26,8 +26,8 @@ module.exports = {
       },
       fontFamily: {
         // primary: ['Syne', 'sans-serif'],
-        primary: ['Manrope', 'serif'],
-        secondary: ['Manrope', 'serif']
+        primary: ['Josefin Sans', 'sans-serif'],
+        secondary: ['Josefin Sans', 'sans-serif']
       },
       colors: {
         primary: '#1e3a8a',

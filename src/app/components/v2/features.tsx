@@ -1,36 +1,41 @@
 import { motion } from 'framer-motion';
-import { FaExchangeAlt, FaChartLine, FaDollarSign, FaAdjust } from "react-icons/fa";
+import Image from 'next/image';
+import StackIcon from "../../../../public/icons/stack.png"
+import LiquidityIcon from "../../../../public/icons/liquidity.png"
+import AbilityIcon from "../../../../public/icons/ability.png"
+import GoalsIcon from "../../../../public/icons/goals.png"
+
 import { MdCancelPresentation } from "react-icons/md";
 
 const features = [
   {
-    title: '1. Liquidity Abstraction',
+    title: 'Liquidity Abstraction',
     description: 'Use my 1 ETH to Buy BTC if it reaches $60,000 or Buy Solana if it reaches $80!',
-    icon: FaExchangeAlt,
+    icon: StackIcon,
   },
   {
-    title: '2. Single Sided Liquidity Positions',
+    title: 'Single Sided Liquidity Positions',
     description: 'Use my 1 ETH to provide liquidity in ETH/USDC, ETH/BTC and BTC/USDT pairs.',
-    icon: FaChartLine,
+    icon: LiquidityIcon,
   },
   {
-    title: '3. Price Source Selection',
+    title: 'Price Source Selection',
     description: 'Use my liquidity based on the Global Average price feeds from Oracle or CEX Prices.',
-    icon: FaDollarSign,
+    icon: AbilityIcon,
   },
   {
-    title: '4. Strategy Adapters',
-    description: 'Execute my strategies using interoperable smart contract connectors within Dextr or external DEXs. (Hooks).',
-    icon: FaAdjust,
+    title: 'Strategy Adapters',
+    description: 'Execute my strategies using interoperable smart contract connectors (Hooks) within Dextr or external DEXs.',
+    icon: GoalsIcon,
   },
 ];
 
 const Features = () => {
   return (
-    <div id="features" className="flex flex-col items-center justify-center mx-10 p-6 pb-20">
+    <div id="features" className="flex flex-col items-center justify-center mx-10 p-6 pb-20 max-md:mt-10">
       <div className='w-full mb-5 font-primary'>
-        <h2 className="text-4xl font-bold text-white mb-4">
-          One-Stop Strategy Execution.
+        <h2 className="lg:text-5xl md:text-3xl text-2xl text-white mb-4">
+          One-Stop Strategy Execution !
         </h2>
         {/* <a href="#" className="text-lg text-green-400 mb-8">
           Explore Order Types →
@@ -47,10 +52,16 @@ const Features = () => {
             transition={{ duration: 0.5, delay: index * 0.2 }}
           >
             {/* <Image height={40} width={40} src={feature.icon} alt={feature.title} className="h-12 w-12 mr-4" /> */}
-            <feature.icon className="h-8 w-8 mr-4 text-white" />
+            <Image 
+              height={44} 
+              width={44} 
+              alt={feature.title} 
+              src={feature.icon} 
+              className="h-11 w-11 mx-4 text-white" 
+            />
             <div>
               <h3 className="text-2xl font-semibold text-white">{feature.title}</h3>
-              <p className="text-sm text-gray-400 mt-2 font-light">{feature.description}</p>
+              <p className="text-sm text-gray-400 mt-1 font-light">{feature.description}</p>
             </div>
           </motion.div>
         ))}

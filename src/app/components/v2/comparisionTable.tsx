@@ -86,7 +86,7 @@ const ComparisonTable = () => {
   return (
     <div className="mx-10 p-6 text-white">
       <div className="mx-auto px-4">
-        <h2 className="text-3xl font-primary font-extrabold text-gray-50 sm:text-4xl mb-8">
+        <h2 className="text-4xl font-primary text-gray-50 sm:text-4xl mb-8">
           How are we better?
         </h2>
         <div className="">

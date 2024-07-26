@@ -1,12 +1,14 @@
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
+import DextrImg from "../../../../public/dextrImg.png"
 
 const HeroElement = () => {
   return (
     <div className='flex max-lg:flex-col-reverse w-full lg:h-screen-minus-150 lg:mx-10'>
       <div className="flex basis-1/3 flex-col justify-center flex-grow p-6 font-primary max-lg:basis-full max-lg:mx-5">
         <motion.h2
-          className="text-5xl font-semibold text-white mb-4"
+          className="xl:text-6xl text-5xl font-semibold text-white mb-4"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -14,7 +16,7 @@ const HeroElement = () => {
           Conquer <span className="bg-clip-text text-transparent bg-loss-gradient">Losses</span>
         </motion.h2>
         <motion.h2
-          className="text-5xl font-semibold text-white mb-4"
+          className="xl:text-6xl text-5xl font-semibold text-white mb-4"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
@@ -22,7 +24,7 @@ const HeroElement = () => {
           Capture <span className="bg-clip-text text-transparent bg-profit-gradient">Profits</span>
         </motion.h2>
         <motion.p
-          className="text-lg mt-3 font-secondary text-gray-300 font-light tracking-wide mb-8"
+          className="lg:text-xl text-base mt-3 font-secondary text-gray-300 font-light tracking-wide mb-8"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
@@ -56,7 +58,7 @@ const HeroElement = () => {
       <div className='flex basis-1/2 items-center justify-center flex-grow max-lg:basis-full max-lg:mx-5'>
         {/* <div className='px-10'> */}
 
-        <motion.video 
+        {/* <motion.video 
           className='w-3/4 rounded-xl' 
           playsInline autoPlay muted controls loop 
           preload="none"
@@ -72,7 +74,14 @@ const HeroElement = () => {
             label="English"
           />
           Your browser does not support the video tag.
-        </motion.video>
+        </motion.video> */}
+        <Image
+          className='rounded-lg shadow-lg'
+          src={DextrImg}
+          height={400}
+          width={650}
+          alt="HERO IMG"
+        />
         {/* </div> */}
         
       </div>
