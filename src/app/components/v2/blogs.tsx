@@ -40,7 +40,7 @@ const Blogs = () => {
     <div className="text-white mt-5 md:mx-10 mx-5 md:p-6 p-2">
       <div className="mx-auto px-4">
         <h2 className="text-6xl max-md:text-4xl max-sm:text-2xl font-primary text-center mb-4">Ready to start trading?</h2>
-        <p className="text-center text-lg max-sm:text-base text-gray-300 mb-8">Join the test-net BETA and start creating your markets.</p>
+        <p className="text-center text-lg max-sm:text-base text-gray-300 mb-8">Join the testnet beta and unlock another dimension of DeFi.</p>
         <div className="flex justify-center mb-8">
           <a 
             href='https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=landing' 

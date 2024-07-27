@@ -14,7 +14,7 @@ const benefits = [
   },
   {
     title: '0% Slippage',
-    description: 'The price you quotes is what you receive when the trade is executed.',
+    description: 'The price you quote is what you receive when the trade is executed.',
     icon: CubeIcon,
   },
   {
@@ -24,7 +24,7 @@ const benefits = [
   },
   {
     title: '25% Less Gas Consumption',
-    description: 'Cost-Effective and affordable Transactions.',
+    description: 'Cost-Effective and affordable transactions.',
     icon: CalculatorIcon,
   },
 ];

@@ -21,7 +21,7 @@ const Testnet = () => {
                     }} 
                 />
                 <div className="mt-5 text-4xl font-primary sm:text-4xl">
-                    Earn Rewards with REP Points
+                    Earn Rewards with REP Points.
                 </div>
                 <div className="mt-5 mb-8 text-md text-gray-400 font-light">
                     Earn REP Points through trading, providing liquidity, and staking. Use REP Points to prioritize your liquidity, redeem for DXTR tokens, or exchange for other cryptocurrencies.

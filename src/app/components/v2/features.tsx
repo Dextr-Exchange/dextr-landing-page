@@ -20,7 +20,7 @@ const features = [
   },
   {
     title: 'Price Source Selection',
-    description: 'Use my liquidity based on the Global Average price feeds from Oracle or CEX Prices.',
+    description: 'Use my liquidity based on the global average price feeds from oracle or CEX prices.',
     icon: AbilityIcon,
   },
   {
@@ -35,7 +35,7 @@ const Features = () => {
     <div id="features" className="flex flex-col items-center justify-center mx-10 p-6 pb-20 max-md:mt-10 max-md:px-2 max-md:py-6">
       <div className='w-full mb-5 font-primary'>
         <h2 className="lg:text-5xl md:text-3xl text-2xl text-white mb-4">
-          One-Stop Strategy Execution !
+          One-Stop Strategy Execution!
         </h2>
         {/* <a href="#" className="text-lg text-green-400 mb-8">
           Explore Order Types →
