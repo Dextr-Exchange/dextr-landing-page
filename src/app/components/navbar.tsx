@@ -18,7 +18,7 @@ export default function Navbar() {
     
     <nav className="flex flex-col justify-between w-full bg-[#0c0c14] bg-opacity-40">
       <div className='font-primary flex justify-between pt-2 px-1 w-full xl:pt-5 xl:px-12'>
-        <div className='flex gap-32 '>
+        <div className='flex gap-32'>
           <Image src={Logo} alt="Dextr Logo" width={150} height={100} />
         <div className='text-[#01C3F1] font-bold hidden xl:flex gap-12 justify-center items-center text-xs'>    
           <a href="#features" className={`hover:underline underline-offset-8 duration-150`} >FEATURES</a>

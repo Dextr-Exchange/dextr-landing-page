@@ -30,9 +30,9 @@ const Header = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
         >
-            <div className="flex items-center space-x-2 max-sm:space-x-0">
+            <Link href="/" className="flex items-center space-x-2 max-sm:space-x-0">
                 <Image src={Logo} alt="Dextr Logo" width={150} height={100} />
-            </div>
+            </Link>
             <nav className='font-primary font-semibold text-gray-100 hidden lg:flex gap-12 justify-center items-center text-sm'>    
             <a href="#features" className={`hover:underline underline-offset-8 duration-150`} >FEATURES</a>
             <a href="https://dextr-protocol.gitbook.io/dextr-mcamm-whitepaper-v3.0/" target="_blank" rel="noopener noreferrer" className={`hover:underline underline-offset-8 duration-150 `}  > WHITEPAPER </a>
