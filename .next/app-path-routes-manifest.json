@@ -1,0 +1,7 @@
+{
+  "/_not-found": "/_not-found",
+  "/page": "/",
+  "/[...not_found]/page": "/[...not_found]",
+  "/new/page": "/new",
+  "/help/reachus/page": "/help/reachus"
+}

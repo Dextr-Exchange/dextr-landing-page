@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: { unoptimized: true } ,
-    output: 'export',
+    output: 'out',
     typescript: {
         // !! WARN !!
         // Dangerously allow production builds to successfully complete even if
