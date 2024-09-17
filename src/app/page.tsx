@@ -112,7 +112,7 @@ const v2 = () => {
           {/* ALL PAGES BELOW SHOULD HAVE mx-10 & p-6 for standardization */}
           <div className="bg-radial-gradient">
             <Header />
-            <HeroElementNew />
+            <HeroElement />
             <Features />
           </div>
 
