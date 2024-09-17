@@ -91,6 +91,7 @@
 "use client";
 
 import Header from "./components/v2/header"
+import HeroElementNew from "./components/v2/heroNew"
 import HeroElement from "./components/v2/hero"
 import Features from "./components/v2/features"
 import Benefits from "./components/v2/benefits"
@@ -111,7 +112,7 @@ const v2 = () => {
           {/* ALL PAGES BELOW SHOULD HAVE mx-10 & p-6 for standardization */}
           <div className="bg-radial-gradient">
             <Header />
-            <HeroElement />
+            <HeroElementNew />
             <Features />
           </div>
 
