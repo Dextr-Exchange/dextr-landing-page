@@ -1,0 +1,19 @@
+trigger:
+- main  # Replace with your branch name
+
+pool:
+  vmImage: 'ubuntu-latest'  # Or use windows-latest or macOS if needed
+
+steps:
+- script: |
+    curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+    sudo apt-get install git-lfs
+  displayName: 'Install Git LFS'
+
+- checkout: self
+  lfs: true
+
+# Add your build and deploy steps here, e.g.:
+- script: |
+    # Your build steps go here
+  displayName: 'Build the project'
