@@ -7,6 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+        keyframes: {
+          // {...}
+          spin_right: {
+            '0%': { transform: 'rotate(0deg)' },
+            '50%': { transform: 'rotate(180deg)' },
+            '100%': { transform: 'rotate(360deg)' },
+          },
+          spin_left: {
+            '0%': { transform: 'rotate(0deg)' },
+            '50%': { transform: 'rotate(-180deg)' },
+            '100%': { transform: 'rotate(-360deg)' },
+          }
+        },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'bgPattern' : "url('/grid7.png')",
@@ -54,5 +67,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-textshadow'),
+  ],
 }
