@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Logo from '../../images/dextr_icon.jpg'
 import Eigen from '../../images/partners/eigenLayer.png'
+import EigenA from '../../images/partners/eigen-A.png'
 import Berachain from '../../images/partners/bera.png'
 import Supra from '../../images/partners/supra.png'
 import Monad from '../../images/partners/monad.png'
@@ -12,6 +13,12 @@ import Brevis from '../../images/partners/brevis.png'
 import Biconomy from '../../images/partners/biconomy.png'
 import Particle from '../../images/partners/particle.png'
 import Othentic from '../../images/partners/othentic.png'
+import BNB from '../../images/partners/bnb.png'
+import Zetachain from '../../images/partners/zetachain.png'
+import Movement from '../../images/partners/movement.png'
+import Chainlink from '../../images/partners/chainlink.png'
+import QuillAINw from '../../images/partners/quillAiNw.png'
+import PancakeSwap from '../../images/partners/pancakeSwap.png'
 import ZkAGI from '../../images/partners/zkagi.png'
 import Router from '../../images/partners/router.png'
 
@@ -20,8 +27,13 @@ import Router from '../../images/partners/router.png'
 const partners = [
     {
         name: "Eigen Layer",
-        icon: Eigen,
+        icon: EigenA,
         url: "https://www.eigenlayer.xyz/",
+    },
+    {
+        name: "BNB",
+        icon: BNB,
+        url: "https://www.bnbchain.org/",
     },
     {
         name: "Berachain",
@@ -29,19 +41,34 @@ const partners = [
         url: "https://www.berachain.com/",
     },
     {
-        name: "Supra",
-        icon: Supra,
-        url: "https://supra.com/",
-    },
-    {
         name: "Monad",
         icon: Monad,
         url: "https://www.monad.xyz/",
     },
     {
+        name: "Zetachain",
+        icon: Zetachain,
+        url: "https://zetachain.com/",
+    },
+    {
+        name: "Movement",
+        icon: Movement,
+        url: "https://movementlabs.xyz/",
+    },
+    {
         name: "Brevis",
         icon: Brevis,
         url: "https://brevis.network/",
+    },
+    {
+        name: "Supra",
+        icon: Supra,
+        url: "https://supra.com/",
+    },
+    {
+        name: "Chainlink",
+        icon: Chainlink,
+        url: "https://chain.link/",
     },
     {
         name: "Biconomy",
@@ -54,20 +81,30 @@ const partners = [
         url: "https://particle.network/",
     },
     {
+        name: "QuillAI Network",
+        icon: QuillAINw,
+        url: "https://quillai.network/",
+    },
+    {
+        name: "Pancake Swap",
+        icon: PancakeSwap,
+        url: "https://pancakeswap.finance/",
+    },
+    {
         name: "Othentic",
         icon: Othentic,
         url: "https://www.othentic.xyz/",
     },
-    {
-        name: "ZkAGI",
-        icon: ZkAGI,
-        url: "https://www.zkagi.ai/",
-    },
-    {
-        name: "Router",
-        icon: Router,
-        url: "https://www.routerprotocol.com/",
-    }
+    // {
+    //     name: "ZkAGI",
+    //     icon: ZkAGI,
+    //     url: "https://www.zkagi.ai/",
+    // },
+    // {
+    //     name: "Router",
+    //     icon: Router,
+    //     url: "https://www.routerprotocol.com/",
+    // }
 ];
 
 const socials = [
@@ -156,7 +193,7 @@ const VideoBackground = () => {
 
         {/* V3 Iteration 2 */}
 
-        <div className='flex flex-col w-full h-full items-center my-8'>
+        <div className='flex flex-col w-full h-full items-center my-4'>
             <motion.div 
                 className='h-fit w-fit rounded-xl p-[1px] bg-gradient-to-l from-[#0d0316] to-[#C0C0C0] mb-[2%]'
                 initial={{ opacity: 0, y: -50 }}
@@ -174,7 +211,7 @@ const VideoBackground = () => {
 
             <Header/>
             
-            <div className='flex flex-col mt-[2%] gap-10 items-center w-[70%]'>
+            <div className='flex flex-col mt-[2%] gap-5 items-center w-[70%]'>
                 <motion.div 
                     className="flex items-center justify-center space-x-4 my-4 text-[#cfcfcf] text-sm w-full font-dm-sans"
                     initial={{ opacity: 0, y: -50 }}
@@ -183,7 +220,7 @@ const VideoBackground = () => {
                 >
                     <div className="flex-grow h-px bg-gradient-to-l from-[#cfcfcf] to-transparent max-w-[100px]"></div>
                     <div className="text-[#cfcfcf] font-medium">
-                        Unveiling the World's Most Advanced Market Maker
+                        Unveiling the world&apos;s first Actively Validated Market Maker
                     </div>
                     <div className="flex-grow h-px bg-gradient-to-r from-[#cfcfcf] to-transparent max-w-[100px]"></div>
                 </motion.div>
@@ -200,23 +237,40 @@ const VideoBackground = () => {
                     </div>
                 </motion.div>
 
+                <motion.div
+                    className='flex text-white text-sm gap-8'
+                    initial={{ opacity: 0, y: -50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, delay: 0.65 }}
+                >
+                    <a className='px-6 py-3 rounded-md border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200'>
+                        Whitepaper
+                    </a>
+                    <a className='px-6 py-3 rounded-md border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200'>
+                        Join Beta
+                    </a>
+                    <a className='px-6 py-3 rounded-md border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200'>
+                        Become an Ambassador
+                    </a>
+                </motion.div>
+
                 <motion.div 
-                    className='flex-wrap max-w-[350px] text-[#cfcfcf] text-sm text-center'
+                    className='flex-wrap max-w-[500px] text-[#cfcfcf] text-sm text-center'
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.7 }}
                 >
-                    Introducing the worlds first actively validated market maker with adaptive liquidity and MEV insurance
+                    Dextr transforms Automated Market Making by eliminating slippage, Loss versus Rebalancing (LVR), and Impermanent Loss (IL). It optimizes liquidity by reducing idle capital and management costs, maximizing capital efficiency and profitability, with the added protection of comprehensive MEV insurance.
                 </motion.div>
             </div>
 
             <motion.div 
-                className='text-[#626262] text-xs mt-[4%] gap-5 uppercase font-medium flex flex-col justify-center items-center'
+                className='text-[#626262] text-xs mt-[2%] gap-5 uppercase font-medium flex flex-col justify-center items-center'
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.9 }}
             >
-                <span>With Support of 10+ leaders</span>
+                <span>Unified integration with 15+ leading protocols</span>
                 {/* <div className='max-w-[500px]'>
                     
                 </div> */}

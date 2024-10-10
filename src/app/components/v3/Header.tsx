@@ -5,7 +5,7 @@ import { SiTelegram } from "react-icons/si";
 
 const Header = () => {
     return(
-<div className="mt-5 h-10 mx-10">
+<div className="h-10 mx-10">
   <motion.div 
     className="w-full flex gap-12 pt-5 flex-wrap items-center justify-end text-[#ffffff]"
     initial={{ opacity: 0, y: -50 }}
