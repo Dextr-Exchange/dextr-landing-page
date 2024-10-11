@@ -288,7 +288,7 @@ const VideoBackground = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.65 }}
                 >
-                    Transform your on-chain liquidity with Dextr! Eliminate rebalancing losses and make your idle liquidity work for you. Discover the best prices and protect your profits with our comprehensive MEV insurance. Join us today and start unlocking your trading potential!
+                    Transform your on-chain liquidity with Dextr! Eliminate rebalancing losses and make your idle liquidity work for you. Discover the best prices and protect your profits with our comprehensive MEV insurance.<br/> Join us today and start unlocking your trading potential!
                 </motion.div>
 
                 <motion.div
