@@ -18,6 +18,7 @@ import Othentic from '../../images/partners/othentic.png'
 import BNB from '../../images/partners/bnb.png'
 import Zetachain from '../../images/partners/zetachain.png'
 import Movement from '../../images/partners/movement.png'
+import Movement2 from '../../images/partners/movement2.png'
 import Chainlink from '../../images/partners/chainlink.png'
 import QuillAINw from '../../images/partners/quillAiNw.png'
 import PancakeSwap from '../../images/partners/pancakeSwap.png'
@@ -56,7 +57,7 @@ const partners = [
     },
     {
         name: "Movement",
-        icon: Movement,
+        icon: Movement2,
         url: "https://movementlabs.xyz/",
     },
     {
