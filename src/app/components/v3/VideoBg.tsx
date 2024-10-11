@@ -300,7 +300,7 @@ const VideoBackground = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.7 }}
                 >
-                    Dextr transforms Automated Market Making by eliminating slippage, Loss versus Rebalancing (LVR), and Impermanent Loss (IL). It optimizes liquidity by reducing idle capital and management costs, maximizing capital efficiency and profitability, with the added protection of comprehensive MEV insurance.
+                    Transform your on-chain liquidity with Dextr! Eliminate rebalancing losses and make your idle funds work for you. Discover the best prices and protect your profits with our comprehensive MEV insurance. Join us today and start unlocking your trading potential!
                 </motion.div>
             </div>
 
