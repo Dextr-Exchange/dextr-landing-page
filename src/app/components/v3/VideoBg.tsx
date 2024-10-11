@@ -203,20 +203,22 @@ const VideoBackground = () => {
         {/* V3 Iteration 2 */}
 
         <div className='flex flex-col w-full h-full items-center my-4'>
-            <motion.div 
-                className='h-fit w-fit rounded-xl p-[1px] bg-gradient-to-l from-[#0d0316] to-[#C0C0C0] mb-[2%]'
+            <motion.div
+                className="h-fit w-fit rounded-xl p-[2px] relative overflow-hidden mb-[2%] animate-outline-move"
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
             >
-                <Image 
-                    src={LogoNew}
-                    height={70}
-                    width={70}
-                    // use 70, 70 in logo new
-                    alt="Dextr Logo"
-                    className='rounded-xl'
-                />
+                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#0d0316] via-[#c0c0c0] to-[#0d0316] animate-outline-move"></div>
+                <div className="relative rounded-xl bg-black p-2">
+                    <Image
+                        src={LogoNew}
+                        height={70}
+                        width={70}
+                        alt="Dextr Logo"
+                        className="rounded-xl"
+                    />
+                </div>
             </motion.div>
 
             <Header/>
@@ -229,15 +231,31 @@ const VideoBackground = () => {
                     transition={{ duration: 1, delay: 0.5 }}
                 >
                     {/* <div className="flex-grow h-px bg-gradient-to-l from-[#cfcfcf] to-transparent max-w-[100px]"></div> */}
-                    <div className='h-fit w-fit rounded-xl p-[1px] bg-gradient-to-l from-[#0d0316] to-[#C0C0C0]'>
-                    <div className="text-base text-[#cfcfcf] font-medium rounded-xl relative inline-block underline-container font-secondaryNew bg-black px-5 py-2">
-                        Unveiling the world&apos;s first&nbsp;
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-400 to-orange-400">
-                            Actively Validated Market Maker
-                        </span>
-                        {/* <span className="absolute left-0 bottom-0 h-0.5 w-[40%] bg-gradient-to-r from-pink-500 via-red-400 to-orange-400 animate-slide"></span> */}
+                    <div className="h-fit w-fit rounded-xl p-[2px] relative overflow-hidden">
+                        <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#0d0316] via-[#c0c0c0] to-[#0d0316] animate-outline-move"></div>
+                        <div className="relative text-base text-[#cfcfcf] font-medium rounded-xl font-secondaryNew bg-black px-5 py-2">
+                            Unveiling the world&apos;s first&nbsp;
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-400 to-orange-400">
+                                Actively Validated Market Maker
+                            </span>
+                        </div>
                     </div>
-                    </div>
+
+                    <style jsx>{`
+                        @keyframes outline-move {
+                            0% {
+                            background-position: 0% 50%;
+                            }
+                            100% {
+                            background-position: 200% 50%;
+                            }
+                        }
+
+                        .animate-outline-move {
+                            background-size: 200% 200%;
+                            animation: outline-move 5s ease-in-out infinite;
+                        }
+                    `}</style>
                     
 {/* 
                     <style jsx>{`
