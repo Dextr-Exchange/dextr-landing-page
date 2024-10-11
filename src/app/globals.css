@@ -4,6 +4,53 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('/fonts/ClashDisplay-Variable.woff2') format('woff2'),
+       url('/fonts/ClashDisplay-Variable.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('/fonts/ClashDisplay-Variable.woff2') format('woff2'),
+       url('/fonts/ClashDisplay-Variable.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('/fonts/ClashDisplay-Variable.woff2') format('woff2'),
+       url('/fonts/ClashDisplay-Variable.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('/fonts/ClashDisplay-Variable.woff2') format('woff2'),
+       url('/fonts/ClashDisplay-Variable.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('/fonts/ClashDisplay-Variable.woff2') format('woff2'),
+       url('/fonts/ClashDisplay-Variable.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url('/fonts/ClashDisplay-Variable.woff2') format('woff2'),
+       url('/fonts/ClashDisplay-Variable.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
 
 .buttonNotch{
     background: linear-gradient(-45deg, transparent 15px, #01C3F1 0, #2BF2FF);

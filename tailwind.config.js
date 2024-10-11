@@ -40,7 +40,9 @@ module.exports = {
       fontFamily: {
         // primary: ['Syne', 'sans-serif'],
         primary: ['Josefin Sans', 'sans-serif'],
-        secondary: ['Josefin Sans', 'sans-serif']
+        secondary: ['Josefin Sans', 'sans-serif'],
+        primaryNew: ['ClashDisplay', 'sans-serif'],
+        custom: ['Roboto', 'sans-serif'],
       },
       colors: {
         primary: '#1e3a8a',

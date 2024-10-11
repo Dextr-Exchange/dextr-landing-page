@@ -3,7 +3,9 @@ import './VideoBackground.css';
 import Header from "./Header"
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import Logo from '../../images/dextr_icon.jpg'
+// import Logo from '../../images/dextr_icon.jpg'
+import Logo from '../../images/dextr_new_black.png'
+import LogoNew from '../../images/dextr_icon_new.png'
 import Eigen from '../../images/partners/eigenLayer.png'
 import EigenA from '../../images/partners/eigen-A.png'
 import Berachain from '../../images/partners/bera.png'
@@ -21,6 +23,7 @@ import QuillAINw from '../../images/partners/quillAiNw.png'
 import PancakeSwap from '../../images/partners/pancakeSwap.png'
 import ZkAGI from '../../images/partners/zkagi.png'
 import Router from '../../images/partners/router.png'
+import Typewriter from 'typewriter-effect';
 
 // import bgVideo from './backgroundVideo.mp4'
 
@@ -65,36 +68,36 @@ const partners = [
         icon: Supra,
         url: "https://supra.com/",
     },
-    {
-        name: "Chainlink",
-        icon: Chainlink,
-        url: "https://chain.link/",
-    },
-    {
-        name: "Biconomy",
-        icon: Biconomy,
-        url: "https://www.biconomy.io/",
-    },
-    {
-        name: "Particle Network",
-        icon: Particle,
-        url: "https://particle.network/",
-    },
-    {
-        name: "QuillAI Network",
-        icon: QuillAINw,
-        url: "https://quillai.network/",
-    },
-    {
-        name: "Pancake Swap",
-        icon: PancakeSwap,
-        url: "https://pancakeswap.finance/",
-    },
-    {
-        name: "Othentic",
-        icon: Othentic,
-        url: "https://www.othentic.xyz/",
-    },
+    // {
+    //     name: "Chainlink",
+    //     icon: Chainlink,
+    //     url: "https://chain.link/",
+    // },
+    // {
+    //     name: "Biconomy",
+    //     icon: Biconomy,
+    //     url: "https://www.biconomy.io/",
+    // },
+    // {
+    //     name: "Particle Network",
+    //     icon: Particle,
+    //     url: "https://particle.network/",
+    // },
+    // {
+    //     name: "QuillAI Network",
+    //     icon: QuillAINw,
+    //     url: "https://quillai.network/",
+    // },
+    // {
+    //     name: "Pancake Swap",
+    //     icon: PancakeSwap,
+    //     url: "https://pancakeswap.finance/",
+    // },
+    // {
+    //     name: "Othentic",
+    //     icon: Othentic,
+    //     url: "https://www.othentic.xyz/",
+    // },
     // {
     //     name: "ZkAGI",
     //     icon: ZkAGI,
@@ -129,7 +132,7 @@ const VideoBackground = () => {
   return (
     <div className="video-background">
         <video autoPlay loop muted>
-            <source src="/video/bgVideoV3.mp4" type="video/mp4" />
+            <source src="/video/bg.mp4" type="video/mp4" />
             Your browser does not support the video tag.
       
         </video>
@@ -201,9 +204,10 @@ const VideoBackground = () => {
                 transition={{ duration: 1 }}
             >
                 <Image 
-                    src={Logo}
-                    height={50}
-                    width={50}
+                    src={LogoNew}
+                    height={70}
+                    width={70}
+                    // use 70, 70 in logo new
                     alt="Dextr Logo"
                     className='rounded-xl'
                 />
@@ -218,11 +222,35 @@ const VideoBackground = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.5 }}
                 >
-                    <div className="flex-grow h-px bg-gradient-to-l from-[#cfcfcf] to-transparent max-w-[100px]"></div>
-                    <div className="text-[#cfcfcf] font-medium">
-                        Unveiling the world&apos;s first Actively Validated Market Maker
+                    {/* <div className="flex-grow h-px bg-gradient-to-l from-[#cfcfcf] to-transparent max-w-[100px]"></div> */}
+                    <div className='h-fit w-fit rounded-xl p-[1px] bg-gradient-to-l from-[#0d0316] to-[#C0C0C0]'>
+                    <div className="text-[#cfcfcf] font-medium rounded-xl relative inline-block underline-container font-secondaryNew bg-black px-5 py-2">
+                        Unveiling the world&apos;s first&nbsp;
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-400 to-orange-400">
+                            Actively Validated Market Maker
+                        </span>
+                        {/* <span className="absolute left-0 bottom-0 h-0.5 w-[40%] bg-gradient-to-r from-pink-500 via-red-400 to-orange-400 animate-slide"></span> */}
                     </div>
-                    <div className="flex-grow h-px bg-gradient-to-r from-[#cfcfcf] to-transparent max-w-[100px]"></div>
+                    </div>
+                    
+{/* 
+                    <style jsx>{`
+                        @keyframes slide {
+                            0% {
+                                transform: translateX(0%);
+                            }
+                            100% {
+                                transform: translateX(200%);
+                            }
+                        }
+
+                        .animate-slide {
+                            animation: slide 2s linear infinite;
+                        }
+                    `}</style> */}
+
+
+                    {/* <div className="flex-grow h-px bg-gradient-to-r from-[#cfcfcf] to-transparent max-w-[100px]"></div> */}
                 </motion.div>
 
 
@@ -232,30 +260,42 @@ const VideoBackground = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.6 }}
                 >
-                    <div className="text-9xl font-primary font-extrabold text-transparent bg-clip-text bg-gradient-to-b from-gray-500 to-white">
-                        AVMM
+                    <div className="flex items-center text-8xl font-primaryNew font-semibold text-transparent bg-clip-text bg-gradient-to-b from-gray-500 to-white"> 
+                        <span className="inline-block">
+                            ZERO&nbsp;
+                        </span>
+                        <span className="inline-block ml-2">
+                            <Typewriter
+                                options={{
+                                    strings: ['MEV', 'SLIPPAGE', 'SPREAD', 'PRICE IMPACT', 'BRIDGES'],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />
+                        </span>
                     </div>
                 </motion.div>
 
                 <motion.div
-                    className='flex text-white text-sm gap-8'
+                    className='flex text-white text-sm gap-8 font-secondaryNew mt-5'
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.65 }}
                 >
-                    <a className='px-6 py-3 rounded-md border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200'>
+                    <a className='px-6 py-3 rounded-xl border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200'>
                         Whitepaper
                     </a>
-                    <a className='px-6 py-3 rounded-md border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200'>
-                        Join Beta
-                    </a>
-                    <a className='px-6 py-3 rounded-md border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200'>
+                    
+                    <a className='px-6 py-3 rounded-xl border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200'>
                         Become an Ambassador
+                    </a>
+                    <a className='px-6 py-3 rounded-xl border border-white bg-white text-black cursor-pointer hover:scale-105 transition-all duration-200'>
+                        Join Beta
                     </a>
                 </motion.div>
 
                 <motion.div 
-                    className='flex-wrap max-w-[500px] text-[#cfcfcf] text-sm text-center'
+                    className='flex-wrap max-w-[700px] text-[#cfcfcf] text-sm text-center font-secondaryNew mt-5'
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.7 }}
@@ -265,7 +305,7 @@ const VideoBackground = () => {
             </div>
 
             <motion.div 
-                className='text-[#626262] text-xs mt-[2%] gap-5 uppercase font-medium flex flex-col justify-center items-center'
+                className='text-[#626262] text-xs mt-[3%] gap-5 uppercase font-medium flex flex-col justify-center items-center font-secondaryNew'
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.9 }}
@@ -274,7 +314,7 @@ const VideoBackground = () => {
                 {/* <div className='max-w-[500px]'>
                     
                 </div> */}
-                <div className="flex flex-wrap justify-center items-center py-8 space-x-4 max-w-[80%] gap-5">
+                <div className="flex flex-wrap justify-center items-center py-6 space-x-4 max-w-[80%] gap-5">
                     {partners.map((ptnr) => {
                         return(
                             <a
