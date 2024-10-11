@@ -23,6 +23,7 @@ import QuillAINw from '../../images/partners/quillAiNw.png'
 import PancakeSwap from '../../images/partners/pancakeSwap.png'
 import ZkAGI from '../../images/partners/zkagi.png'
 import Router from '../../images/partners/router.png'
+import Union from '../../images/partners/union.png'
 import Typewriter from 'typewriter-effect';
 
 // import bgVideo from './backgroundVideo.mp4'
@@ -67,6 +68,11 @@ const partners = [
         name: "Supra",
         icon: Supra,
         url: "https://supra.com/",
+    },
+    {
+        name: "Union",
+        icon: Union,
+        url: "https://union.build/",
     },
     // {
     //     name: "Chainlink",
@@ -224,7 +230,7 @@ const VideoBackground = () => {
                 >
                     {/* <div className="flex-grow h-px bg-gradient-to-l from-[#cfcfcf] to-transparent max-w-[100px]"></div> */}
                     <div className='h-fit w-fit rounded-xl p-[1px] bg-gradient-to-l from-[#0d0316] to-[#C0C0C0]'>
-                    <div className="text-[#cfcfcf] font-medium rounded-xl relative inline-block underline-container font-secondaryNew bg-black px-5 py-2">
+                    <div className="text-base text-[#cfcfcf] font-medium rounded-xl relative inline-block underline-container font-secondaryNew bg-black px-5 py-2">
                         Unveiling the world&apos;s first&nbsp;
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-400 to-orange-400">
                             Actively Validated Market Maker
@@ -267,7 +273,7 @@ const VideoBackground = () => {
                         <span className="inline-block ml-2">
                             <Typewriter
                                 options={{
-                                    strings: ['MEV', 'SLIPPAGE', 'SPREAD', 'PRICE IMPACT', 'BRIDGES'],
+                                    strings: ['MEV', 'SLIPPAGE', 'SPREAD', 'LVR', 'BRIDGES'],
                                     autoStart: true,
                                     loop: true,
                                 }}
@@ -276,11 +282,20 @@ const VideoBackground = () => {
                     </div>
                 </motion.div>
 
+                <motion.div 
+                    className='flex-wrap max-w-[700px] text-[#cfcfcf] text-sm text-center font-secondaryNew mt-5'
+                    initial={{ opacity: 0, y: -50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1, delay: 0.65 }}
+                >
+                    Transform your on-chain liquidity with Dextr! Eliminate rebalancing losses and make your idle liquidity work for you. Discover the best prices and protect your profits with our comprehensive MEV insurance. Join us today and start unlocking your trading potential!
+                </motion.div>
+
                 <motion.div
                     className='flex text-white text-sm gap-8 font-secondaryNew mt-5'
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, delay: 0.65 }}
+                    transition={{ duration: 1, delay: 0.70 }}
                 >
                     <a className='px-6 py-3 rounded-xl border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200'>
                         Whitepaper
@@ -293,15 +308,6 @@ const VideoBackground = () => {
                         Join Beta
                     </a>
                 </motion.div>
-
-                <motion.div 
-                    className='flex-wrap max-w-[700px] text-[#cfcfcf] text-sm text-center font-secondaryNew mt-5'
-                    initial={{ opacity: 0, y: -50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1, delay: 0.7 }}
-                >
-                    Transform your on-chain liquidity with Dextr! Eliminate rebalancing losses and make your idle funds work for you. Discover the best prices and protect your profits with our comprehensive MEV insurance. Join us today and start unlocking your trading potential!
-                </motion.div>
             </div>
 
             <motion.div 
@@ -310,7 +316,7 @@ const VideoBackground = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.9 }}
             >
-                <span>Unified integration with 15+ leading protocols</span>
+                <span>Supported by 30+ industry leaders</span>
                 {/* <div className='max-w-[500px]'>
                     
                 </div> */}
