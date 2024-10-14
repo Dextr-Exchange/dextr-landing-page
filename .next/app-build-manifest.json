@@ -1,55 +1,21 @@
 {
   "pages": {
-    "/not-found": [
-      "static/chunks/webpack-12b75d3b48fbf090.js",
-      "static/chunks/bce60fc1-677f91468b92332d.js",
-      "static/chunks/698-13bf9af7de389da5.js",
-      "static/chunks/main-app-5489087655910789.js",
-      "static/chunks/539bbe41-0f541106ad9a8f40.js",
-      "static/chunks/2e3a737e-2e82b05f51dc3970.js",
-      "static/chunks/5a0a5f12-a186d72d47e4c29a.js",
-      "static/chunks/302-2a2daaf8a4017674.js",
-      "static/chunks/846-6e0c1eebc6b280a6.js",
-      "static/chunks/app/not-found-1715b9dea99cfa67.js"
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-12b75d3b48fbf090.js",
-      "static/chunks/bce60fc1-677f91468b92332d.js",
-      "static/chunks/698-13bf9af7de389da5.js",
-      "static/chunks/main-app-5489087655910789.js",
-      "static/css/2a7f065686b2e780.css",
-      "static/chunks/app/layout-d3b0db94789b76ae.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
-    "/page": [
-      "static/chunks/webpack-12b75d3b48fbf090.js",
-      "static/chunks/bce60fc1-677f91468b92332d.js",
-      "static/chunks/698-13bf9af7de389da5.js",
-      "static/chunks/main-app-5489087655910789.js",
-      "static/chunks/539bbe41-0f541106ad9a8f40.js",
-      "static/chunks/1418ae87-e6a81edfa7a7208d.js",
-      "static/chunks/302-2a2daaf8a4017674.js",
-      "static/chunks/552-5c4245de5205eabb.js",
-      "static/css/9dba874ee6cc8737.css",
-      "static/chunks/app/page-c5a1adf6bb1b51cf.js"
-    ],
-    "/[...not_found]/page": [
-      "static/chunks/webpack-12b75d3b48fbf090.js",
-      "static/chunks/bce60fc1-677f91468b92332d.js",
-      "static/chunks/698-13bf9af7de389da5.js",
-      "static/chunks/main-app-5489087655910789.js",
-      "static/chunks/app/[...not_found]/page-cb8196e04cc86429.js"
-    ],
-    "/help/reachus/page": [
-      "static/chunks/webpack-12b75d3b48fbf090.js",
-      "static/chunks/bce60fc1-677f91468b92332d.js",
-      "static/chunks/698-13bf9af7de389da5.js",
-      "static/chunks/main-app-5489087655910789.js",
-      "static/chunks/539bbe41-0f541106ad9a8f40.js",
-      "static/chunks/2e3a737e-2e82b05f51dc3970.js",
-      "static/chunks/5a0a5f12-a186d72d47e4c29a.js",
-      "static/chunks/302-2a2daaf8a4017674.js",
-      "static/chunks/846-6e0c1eebc6b280a6.js",
-      "static/chunks/app/help/reachus/page-390283eda9133ceb.js"
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }

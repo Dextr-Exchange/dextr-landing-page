@@ -14,13 +14,13 @@ const Header = () => {
   >
     {/* icons */}
     <a href="https://twitter.com/Dextr_Exchange" target="_blank" rel="noopener noreferrer">
-      <AiOutlineTwitter fontSize={34} className="logo h-7 w-auto filter grayscale opacity-40 hover:opacity-70 hover:brightness-100 transition-all duration-300 pointer" />
+      <AiOutlineTwitter fontSize={34} className="logo h-5 md:h-7 w-auto filter grayscale opacity-40 hover:opacity-70 hover:brightness-100 transition-all duration-300 pointer" />
     </a>          
     <a href="https://t.me/DextrExchange" target="_blank" rel="noopener noreferrer">
-      <SiTelegram fontSize={34} className="logo h-7 w-auto filter grayscale opacity-40 hover:opacity-70 hover:brightness-100 transition-all duration-300 pointer" />
+      <SiTelegram fontSize={34} className="logo h-5 md:h-7 w-auto filter grayscale opacity-40 hover:opacity-70 hover:brightness-100 transition-all duration-300 pointer" />
     </a>
     <a href="https://medium.com/@dextr-ex" target="_blank" rel="noopener noreferrer">
-      <AiFillMediumCircle fontSize={34} className="logo h-7 w-auto filter grayscale opacity-40 hover:opacity-70 hover:brightness-100 transition-all duration-300 pointer" />
+      <AiFillMediumCircle fontSize={34} className="logo h-5 md:h-7 w-auto filter grayscale opacity-40 hover:opacity-70 hover:brightness-100 transition-all duration-300 pointer" />
     </a>
     {/* <a href="https://www.linkedin.com/company/dextr-exchange/" target="_blank" rel="noopener noreferrer">
       <AiFillLinkedin fontSize={34} className="hover:text-cyan-300 xs:text-lg sm:text-xl md:text-2xl lg:text-4xl" />

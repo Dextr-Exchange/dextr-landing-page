@@ -214,10 +214,10 @@ const VideoBackground = () => {
                 <div className="relative rounded-xl bg-black p-2">
                     <Image
                         src={LogoNew}
-                        height={70}
-                        width={70}
+                        height={0}
+                        width={0}
                         alt="Dextr Logo"
-                        className="rounded-xl"
+                        className="rounded-xl h-10 w-10 md:h-16 md:w-16 xl:w-20 xl:h-20"
                     />
                 </div>
             </motion.div>
@@ -234,7 +234,7 @@ const VideoBackground = () => {
                     {/* <div className="flex-grow h-px bg-gradient-to-l from-[#cfcfcf] to-transparent max-w-[100px]"></div> */}
                     <div className="h-fit w-fit rounded-xl p-[2px] relative overflow-hidden">
                         <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-[#0d0316] via-[#c0c0c0] to-[#0d0316] animate-outline-move"></div>
-                        <div className="relative text-base text-[#cfcfcf] font-medium rounded-xl font-secondaryNew bg-black px-5 py-2">
+                        <div className="relative text-xs md:text-sm xl:text-base text-center text-[#cfcfcf] font-medium rounded-xl font-secondaryNew bg-black px-5 py-2">
                             Unveiling the world&apos;s first&nbsp;
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-400 to-orange-400">
                                 Actively Validated Market Maker
@@ -285,7 +285,7 @@ const VideoBackground = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.6 }}
                 >
-                    <div className="flex items-center text-8xl font-primaryNew font-semibold text-transparent bg-clip-text bg-gradient-to-b from-gray-500 to-white"> 
+                    <div className="flex flex-col sm:flex-row items-center text-5xl md:text-6xl xl:text-8xl font-primaryNew font-semibold text-transparent bg-clip-text bg-gradient-to-b from-gray-500 to-white"> 
                         <span className="inline-block">
                             ZERO&nbsp;
                         </span>
@@ -302,7 +302,7 @@ const VideoBackground = () => {
                 </motion.div>
 
                 <motion.div 
-                    className='flex-wrap max-w-[700px] text-[#cfcfcf] text-sm text-center font-secondaryNew mt-5'
+                    className='flex-wrap max-w-[700px] text-[#cfcfcf] text-xs md:text-sm text-center font-secondaryNew mt-5'
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.65 }}
@@ -311,26 +311,26 @@ const VideoBackground = () => {
                 </motion.div>
 
                 <motion.div
-                    className='flex text-white text-sm gap-8 font-secondaryNew mt-5'
+                    className='flex max-sm:flex-col text-white text-xs md:text-sm gap-8 font-secondaryNew mt-5'
                     initial={{ opacity: 0, y: -50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.70 }}
                 >
-                    <a className='px-6 py-3 rounded-xl border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200'>
+                    <a className='flex px-6 py-3 rounded-xl border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200 text-center justify-center items-center max-sm:w-full'>
                         Whitepaper
                     </a>
                     
-                    <a className='px-6 py-3 rounded-xl border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200'>
+                    <a className='flex px-6 py-3 rounded-xl border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200 text-center justify-center items-center max-sm:w-full'>
                         Become an Ambassador
                     </a>
-                    <a className='px-6 py-3 rounded-xl border border-white bg-white text-black cursor-pointer hover:scale-105 transition-all duration-200'>
+                    <a className='flex px-6 py-3 rounded-xl border border-white bg-white text-black cursor-pointer hover:scale-105 transition-all duration-200 text-center justify-center items-center max-sm:w-full'>
                         Join Beta
                     </a>
                 </motion.div>
             </div>
 
             <motion.div 
-                className='text-[#626262] text-xs mt-[3%] gap-5 uppercase font-medium flex flex-col justify-center items-center font-secondaryNew'
+                className='text-[#626262] max-sm:mt-10 text-xs mt-[3%] gap-5 uppercase font-medium flex flex-col justify-center items-center font-secondaryNew'
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.9 }}
@@ -349,7 +349,7 @@ const VideoBackground = () => {
                                 <Image 
                                     src={ptnr.icon}
                                     alt="ICON"
-                                    className="logo h-7 w-auto filter grayscale opacity-40 hover:opacity-70 hover:brightness-100 transition-all duration-300 pointer"
+                                    className="logo h-4 sm:h-5 md:h-6 xl:h-7 w-auto filter grayscale opacity-40 hover:opacity-70 hover:brightness-100 transition-all duration-300 pointer"
                                 />
                             </a>
                             
