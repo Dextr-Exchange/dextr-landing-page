@@ -138,7 +138,7 @@ const socials = [
 const VideoBackground = () => {
   return (
     <div className="video-background">
-        <video autoPlay loop muted>
+        <video autoPlay loop muted playsInline>
             <source src="/video/bg.mp4" type="video/mp4" />
             Your browser does not support the video tag.
       

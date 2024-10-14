@@ -40,14 +40,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/page.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/script.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
@@ -83,6 +75,14 @@
     "(app-client)/./src/app/not-found.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/not-found.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -171,14 +171,6 @@
       ],
       "async": false
     },
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/page.tsx": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/Users/kanishkchhabra/dextr/dextr-landing-page/node_modules/next/dist/client/script.js": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
@@ -234,15 +226,23 @@
         "app/not-found:static/chunks/app/not-found.js"
       ],
       "async": false
+    },
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/page.tsx": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/page": [
-      "static/css/app/page.css"
-    ],
     "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/layout": [
       "static/css/app/layout.css"
     ],
-    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/not-found": []
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/not-found": [],
+    "/Users/kanishkchhabra/dextr/dextr-landing-page/src/app/page": [
+      "static/css/app/page.css"
+    ]
   }
 }
