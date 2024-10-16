@@ -316,14 +316,26 @@ const VideoBackground = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1, delay: 0.70 }}
                 >
-                    <a className='flex px-6 py-3 rounded-xl border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200 text-center justify-center items-center max-sm:w-full'>
+                    <a 
+                        className='flex px-6 py-3 rounded-xl border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200 text-center justify-center items-center max-sm:w-full'
+                        href="https://dextr-protocol.gitbook.io/dextr-avmm-whitepaper-v3.0"
+                        target='_blank'
+                    >
                         Whitepaper
                     </a>
                     
-                    <a className='flex px-6 py-3 rounded-xl border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200 text-center justify-center items-center max-sm:w-full'>
+                    <a 
+                        className='flex px-6 py-3 rounded-xl border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200 text-center justify-center items-center max-sm:w-full'
+                        href="https://zfrmz.com/2hsYfMYn7kxHqOLqMi0z"
+                        target='_blank'
+                    >
                         Become an Ambassador
                     </a>
-                    <a className='flex px-6 py-3 rounded-xl border border-white bg-white text-black cursor-pointer hover:scale-105 transition-all duration-200 text-center justify-center items-center max-sm:w-full'>
+                    <a 
+                        className='flex px-6 py-3 rounded-xl border border-white bg-white text-black cursor-pointer hover:scale-105 transition-all duration-200 text-center justify-center items-center max-sm:w-full'
+                        href="https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=twitter&utm_medium=Zoho+Social"
+                        target='_blank'
+                    >
                         Join Beta
                     </a>
                 </motion.div>
