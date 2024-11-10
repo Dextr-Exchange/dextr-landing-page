@@ -326,14 +326,14 @@ const VideoBackground = () => {
                     
                     <a 
                         className='flex px-6 py-3 rounded-xl border border-white bg-black cursor-pointer hover:scale-105 transition-all duration-200 text-center justify-center items-center max-sm:w-full'
-                        href="https://zfrmz.com/2hsYfMYn7kxHqOLqMi0z"
+                        href="https://forms.zoho.com/Dextr/form/DextrGeniusGuild"
                         target='_blank'
                     >
                         Become an Ambassador
                     </a>
                     <a 
                         className='flex px-6 py-3 rounded-xl border border-white bg-white text-black cursor-pointer hover:scale-105 transition-all duration-200 text-center justify-center items-center max-sm:w-full'
-                        href="https://forms.zohopublic.com/brainchain/form/DextrBetaProgram1/formperma/jwTVjPwh8O2gVFb0TZSSjuBkc-IluEevhgOxTLzDqeY?utm_source=twitter&utm_medium=Zoho+Social"
+                        href="https://forms.zoho.com/Dextr/form/DextrBetaProgram1"
                         target='_blank'
                     >
                         Join Beta
