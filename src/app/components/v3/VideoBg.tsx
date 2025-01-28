@@ -333,10 +333,10 @@ const VideoBackground = () => {
                     </a>
                     <a 
                         className='flex px-6 py-3 rounded-xl border border-white bg-white text-black cursor-pointer hover:scale-105 transition-all duration-200 text-center justify-center items-center max-sm:w-full'
-                        href="https://forms.zoho.com/Dextr/form/DextrBetaProgram1"
+                        href="https://app.dextr.exchange/"
                         target='_blank'
                     >
-                        Join Beta
+                        Access Testnet
                     </a>
                 </motion.div>
             </div>
