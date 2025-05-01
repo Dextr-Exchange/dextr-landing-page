@@ -65,11 +65,11 @@ const partners = [
         icon: Brevis,
         url: "https://brevis.network/",
     },
-    {
-        name: "Supra",
-        icon: Supra,
-        url: "https://supra.com/",
-    },
+    // {
+    //     name: "Supra",
+    //     icon: Supra,
+    //     url: "https://supra.com/",
+    // },
     {
         name: "Union",
         icon: Union,

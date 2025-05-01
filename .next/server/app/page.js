@@ -265,11 +265,11 @@ __webpack_require__.r(__webpack_exports__);
 /***/ 3966:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6034))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2885))
 
 /***/ }),
 
-/***/ 6034:
+/***/ 2885:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -360,8 +360,6 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 /* harmony default export */ const eigen_A = ({"src":"/_next/static/media/eigen-A.97d0b5fd.png","height":148,"width":362,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAQAAAAEwYbDAAAAPklEQVR42mN4vOVR8aOuB8r3vR/E37d/4M3w+MCjtEfW9yTumT/wuu9xh4Ph8ePHTx65PBB9YHvf6WHwA1sABrEdjbnTcQ0AAAAASUVORK5CYII=","blurWidth":8,"blurHeight":3});
 ;// CONCATENATED MODULE: ./src/app/images/partners/bera.png
 /* harmony default export */ const bera = ({"src":"/_next/static/media/bera.85f44c13.png","height":98,"width":664,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAAKklEQVR4nAWAsQkAIBADLwEncH+cx9JJxM5vjKjqDnjLykTukA04SQOdD/MXDR+iFF2xAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":1});
-;// CONCATENATED MODULE: ./src/app/images/partners/supra.png
-/* harmony default export */ const supra = ({"src":"/_next/static/media/supra.30701753.png","height":428,"width":2000,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAARklEQVR4nGN8vXLth3/ff6wRi4/a+v/v398MTEzKDAwMnED8GIh/ML5ete7jv6/fVoolRG/5/++fLAMj41egxGcgFgJiBgA+BhuvKYG50QAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":2});
 ;// CONCATENATED MODULE: ./src/app/images/partners/monad.png
 /* harmony default export */ const monad = ({"src":"/_next/static/media/monad.6d275171.png","height":240,"width":1272,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAQAAADPnVVmAAAALElEQVR42mP4V/3P61/gv4h/yf9C//n+S2L4V/XP/1/Mv4R/0f9S/qX+ywYAdd8Vyme4SoIAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":2});
 ;// CONCATENATED MODULE: ./src/app/images/partners/brevis.png
@@ -378,7 +376,6 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 var react = __webpack_require__(9462);
 var dist_react_default = /*#__PURE__*/__webpack_require__.n(react);
 ;// CONCATENATED MODULE: ./src/app/components/v3/VideoBg.tsx
-
 
 
 
@@ -433,11 +430,11 @@ const partners = [
         icon: brevis,
         url: "https://brevis.network/"
     },
-    {
-        name: "Supra",
-        icon: supra,
-        url: "https://supra.com/"
-    },
+    // {
+    //     name: "Supra",
+    //     icon: Supra,
+    //     url: "https://supra.com/",
+    // },
     {
         name: "Union",
         icon: union,
