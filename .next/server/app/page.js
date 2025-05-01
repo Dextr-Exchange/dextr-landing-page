@@ -265,11 +265,11 @@ __webpack_require__.r(__webpack_exports__);
 /***/ 3966:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2885))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7197))
 
 /***/ }),
 
-/***/ 2885:
+/***/ 7197:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -368,15 +368,12 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 /* harmony default export */ const bnb = ({"src":"/_next/static/media/bnb.5ecf0dc5.png","height":440,"width":2500,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAAIElEQVR4nGPcunVrBQMDw3kgFgDiv0B8F4g5gJgRiLkAgX8FZVabuZ4AAAAASUVORK5CYII=","blurWidth":8,"blurHeight":1});
 ;// CONCATENATED MODULE: ./src/app/images/partners/zetachain.png
 /* harmony default export */ const zetachain = ({"src":"/_next/static/media/zetachain.10410611.png","height":151,"width":808,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAAKElEQVR4nA3DuQ0AIAwEwb3YBdMj3ZBhyW8wisoDutXtAgP+ymVIbwDuAgsv+o9MZwAAAABJRU5ErkJggg==","blurWidth":8,"blurHeight":1});
-;// CONCATENATED MODULE: ./src/app/images/partners/movement2.png
-/* harmony default export */ const movement2 = ({"src":"/_next/static/media/movement2.3ce1cc4d.png","height":317,"width":2060,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAAIUlEQVR4nGP89+9fGgMDwx0gVgfid0D8D4h/ATEnEP8FAKdtCFHXh+bvAAAAAElFTkSuQmCC","blurWidth":8,"blurHeight":1});
 ;// CONCATENATED MODULE: ./src/app/images/partners/union.png
 /* harmony default export */ const union = ({"src":"/_next/static/media/union.424890c5.png","height":1575,"width":5120,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAQAAADPnVVmAAAALElEQVR42mP45/yv6Z/5P+N/Vv8s/un9M2L41/kv5J/kv6B/Pv/C/0X8CwQAX4sUdhK+4BgAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":2});
 // EXTERNAL MODULE: ./node_modules/typewriter-effect/dist/react.js
 var react = __webpack_require__(9462);
 var dist_react_default = /*#__PURE__*/__webpack_require__.n(react);
 ;// CONCATENATED MODULE: ./src/app/components/v3/VideoBg.tsx
-
 
 
 
@@ -420,11 +417,11 @@ const partners = [
         icon: zetachain,
         url: "https://zetachain.com/"
     },
-    {
-        name: "Movement",
-        icon: movement2,
-        url: "https://movementlabs.xyz/"
-    },
+    // {
+    //     name: "Movement",
+    //     icon: Movement2,
+    //     url: "https://movementlabs.xyz/",
+    // },
     {
         name: "Brevis",
         icon: brevis,

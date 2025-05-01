@@ -55,11 +55,11 @@ const partners = [
         icon: Zetachain,
         url: "https://zetachain.com/",
     },
-    {
-        name: "Movement",
-        icon: Movement2,
-        url: "https://movementlabs.xyz/",
-    },
+    // {
+    //     name: "Movement",
+    //     icon: Movement2,
+    //     url: "https://movementlabs.xyz/",
+    // },
     {
         name: "Brevis",
         icon: Brevis,
